@@ -2,12 +2,12 @@
 # Em Lim
 # Oct 17, 2023
 
-# I wrote this to analyze two experiments I ran to see if animals could increase the concentration of ammonium in cages
+# I wrote this script to analyze two experiments I ran to see if animals could increase the concentration of ammonium in cages. One experiment used sea cucumbers, and another used red rock crabs
 
 # Load packages ----
 
 # Package management
-library()
+library(renv) # this package takes a snapshot of all the packages I'm using and will help you install those exact package versions
 
 # Manipulate data
 library(tidyverse) # Umbrella package contains lots of good stuff including the following
@@ -65,6 +65,7 @@ summary(mod_cu)
 # cukesMedium is the difference between control cage and medium cukes
 # cukesLarge is the difference between control cage and large cukes
 # depth_center is the effect of depth (as a continuous variable)
+# we see no effect of sea cucumber treatment, but a positive effect of depth. Deeper cages had higher concentrations of ammonium
 
 # visualize the model output
 visreg(mod_cu)
@@ -80,6 +81,7 @@ plot(simulateResiduals(mod_cr_gamma)) # this looks fine!
 
 # model output
 summary(mod_cr_gamma)
+# cages containing medium and large crabs had higher concentrations of ammonium vs control cages
 
 # visualize the model output
 visreg(mod_cr_gamma)
