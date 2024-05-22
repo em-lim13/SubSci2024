@@ -4,10 +4,16 @@
 
 # I wrote this script to analyze two experiments I ran to see if animals could increase the concentration of ammonium in cages. One experiment used sea cucumbers, and another used red rock crabs
 
+# Renv is a package management package. It records snapshots of all the packages currently used in your repository and the versions you're using
+
+# Renv should have prompted you to install all the packages I'm using, and make sure you have the same versions
+
+
 # Load packages ----
 
-# Package management
-library(renv) # this package takes a snapshot of all the packages I'm using and will help you install those exact package versions
+# Package management.
+
+library(renv) 
 
 # Manipulate data
 library(tidyverse) # Umbrella package contains lots of good stuff including the following
