@@ -7,21 +7,26 @@
 # Renv is a package management package. It records snapshots of all the packages currently used in your repository and the versions you're using
 # Renv should have prompted you to install all the packages I'm using, and make sure you have the same versions
 
+# I've tried to add more annotations to this code, but if you're unfamiliar with linear modeling I strongly suggest checking out this fantastic tutorial written by my labmate:
+# https://bayesbaes.github.io/2023/03/15/glmms.html
+
+# I have "soft wrap" turned on, so R automatically starts a new line when my code hits the edge of my page
+# If you don't have this on, you'll get some super long lines (sorry)
+# To turn it on, go Tools > Global Options > Code > check "soft wrap R source files" > Apply !
+
 # Load packages ----
 
 # Package management
 library(renv) 
 
 # Manipulate data
-library(tidyverse) # Umbrella package contains lots of good stuff including the following:
-library(dplyr) # Data manipulation
-library(lubridate) # dates
+library(tidyverse) # for general data wrangling and plotting
 
 # Analysis
 library(TMB) # needed for glmmTMB
 library(glmmTMB) # The swiss army knife of modeling packages
 library(DHARMa) # inspect model residuals/check assumptions
-library(ggeffects) # effect sizes
+library(ggeffects) # for extracting predictions and running post hoc tests
 
 # Visualize
 library(ggplot2) # Plotting data
@@ -35,32 +40,43 @@ library(ggtext) # add text to plots
 
 # Sea cucumbers in cages
 cuke_pee <- read_csv("Data/cuke_cages.csv") %>%
+  # I don't like the name of this column, let's rename it!
   rename(nh4_avg = nh4_conc) %>%
+  # Use mutate() to create new columns
   mutate(cukes = factor(cukes, levels = c("Control", "Mid", "High"),
                         labels = c("Control", "Medium", "Large")),
-         depth_center = c(scale(depth, scale = FALSE))) %>% # center depth
+         depth_center = c(scale(depth, scale = FALSE))) %>% 
+  # I want to make sure this is a dataframe
   as.data.frame()
+
+# center depth: this subtracts the mean from each value, but doesn't divide it by the standard deviation 
+# Use c() on each scale() function to remove the extra attributes that the scale() function creates which cause issues with other packages
 
 # Red rock crabs in cages
 crab_pee <- read_csv("Data/crab_cage_pee.csv") %>%
+  # I need to add a column for week, the first 12 rows are week one, and the next 11 rows are week two
   mutate(week = c(rep("one", 12), rep("two", 11)),
          treatment = factor(as.factor(treatment), 
                             levels = c("control", "mid", "large"),
                             labels = c("Control", "Medium", "Large"))) %>%
+  # currently each pee measurement is an individual column, but I want those all in one column so I need to pivot!
   pivot_longer( cols = c(nh4_conc3, nh4_conc2, nh4_conc1), names_to = "measurement", values_to = "nh4_conc") %>%
+  # new column for day of measurement
   mutate(day = c(rep(3:1, times = 12), rep(6:4, times = 11)))%>%
   as.data.frame()
 
 
 # Cuke stats -----
 # create a "simple" model
-# cukes = the treatment variable, did a cage have no cukes, 1 cuke, or 2 cukes?
-# depth_center = continuous variable for cage depth, centred
+# nh4_avg is the response variable
+# cukes = the categorical treatment variable, did a cage have no cukes, 1 cuke, or 2 cukes?
+# depth_center = continuous variable for cage depth, centered
+# centering this variable means we're making estimates about the sea cucumber treatment at the mean depth, instead of depth = 0.
 mod_cu <- glmmTMB(nh4_avg ~ cukes + depth_center,
                   cuke_pee)
 
 # check residuals
-plot(simulateResiduals(mod_cu)) 
+plot(simulateResiduals(mod_cu)) # we want the points on the left plot to roughly follow the red line, and the lines on the right plot should be black and fairly flat. This plot isn't the prettiest, but DHARMa isn't highlighting anything in red so it's ok
 
 # look at model output
 summary(mod_cu) 
@@ -80,7 +96,7 @@ mod_cr_gamma <- glmmTMB(nh4_conc ~ treatment + (1|week),
                         family = Gamma(link = "log"),
                         crab_pee)
 # check resids
-plot(simulateResiduals(mod_cr_gamma)) # this looks fine!
+plot(simulateResiduals(mod_cr_gamma)) # this looks good!
 
 # model output
 summary(mod_cr_gamma)
@@ -153,8 +169,8 @@ crab_plot <- ggplot() +
 
 # plot together
 cuke_plot + crab_plot & 
-  plot_annotation(theme = theme(plot.background = 
-                                  element_rect(color = "white", fill = "white")))
+  plot_annotation(theme = 
+      theme(plot.background = element_rect(color = "white", fill = "white")))
 
 # Save this figure
 ggsave("Figures/Example_cage_plot.png", device = "png", height = 6, width = 12, dpi = 400)
