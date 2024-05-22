@@ -2,10 +2,15 @@
 # Em Lim
 # May 2024
 
+# When you first open this, R should ask you to install a list of packages. 
+# Please click yes!
+# Renv is a package manager, and will make sure you have the same versions of packages that I'm using!
+# Don't worry, this won't impact your other projects or R scripts. Renv will keep all the packages contained to this project
+# The download will take a few minutes, just be patient and go look at the ocean for a while while you wait
+
+
 # I wrote this script to analyze two experiments I ran to see if animals could increase the concentration of ammonium in cages. One experiment used sea cucumbers, and another used red rock crabs
 
-# Renv is a package management package. It records snapshots of all the packages currently used in your repository and the versions you're using
-# Renv should have prompted you to install all the packages I'm using, and make sure you have the same versions
 
 # I've tried to add more annotations to this code, but if you're unfamiliar with linear modeling I strongly suggest checking out this fantastic tutorial written by my labmate:
 # https://bayesbaes.github.io/2023/03/15/glmms.html
@@ -17,12 +22,15 @@
 # Load packages ----
 
 # Package management
+# Renv records snapshots of all the packages currently used in your repository and the versions you're using
 library(renv) 
+renv::restore() # this should make sure your packages are all consistent with this project
 
 # Manipulate data
 library(tidyverse) # for general data wrangling and plotting
 
 # Analysis
+# Loading TMB and glmmTMB will give you a warning. Just ignore this, the more updated version of Matrix and TMB don't run well on older computers so we're using these versions to avoid half the class being unable to run code
 library(TMB) # needed for glmmTMB
 library(glmmTMB) # The swiss army knife of modeling packages
 library(DHARMa) # inspect model residuals/check assumptions
@@ -32,11 +40,12 @@ library(ggeffects) # for extracting predictions and running post hoc tests
 library(ggplot2) # Plotting data
 library(patchwork) # Arrange multiple plots together
 library(visreg) # plot model predictions
-library(png) # add images to plots
-library(ggtext) # add text to plots
 
 
 # Load data ----
+
+# You'll notice "%>%" in my code a lot! This is a pipe function: it takes each line of code and "pipes" it through the next set of functions. 
+# This lets me load data into R, rename a column, and then change and add columns all in one chunk
 
 # Sea cucumbers in cages
 cuke_pee <- read_csv("Data/cuke_cages.csv") %>%
@@ -49,7 +58,7 @@ cuke_pee <- read_csv("Data/cuke_cages.csv") %>%
   # I want to make sure this is a dataframe
   as.data.frame()
 
-# center depth: this subtracts the mean from each value, but doesn't divide it by the standard deviation 
+# center depth: this subtracts the mean from each value (centering), but doesn't divide it by the standard deviation (scaling)
 # Use c() on each scale() function to remove the extra attributes that the scale() function creates which cause issues with other packages
 
 # Red rock crabs in cages
