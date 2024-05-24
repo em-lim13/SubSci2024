@@ -24,7 +24,6 @@
 # Package management
 # Renv records snapshots of all the packages currently used in your repository and the versions you're using
 library(renv) 
-renv::restore() # this should make sure your packages are all consistent with this project
 
 # Manipulate data
 library(tidyverse) # for general data wrangling and plotting
@@ -40,6 +39,9 @@ library(ggeffects) # for extracting predictions and running post hoc tests
 library(ggplot2) # Plotting data
 library(patchwork) # Arrange multiple plots together
 library(visreg) # plot model predictions
+
+# make sure packages are correct
+renv::restore() # this should make sure your packages are all consistent with this project
 
 
 # Load data ----
