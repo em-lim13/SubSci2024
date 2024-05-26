@@ -8,7 +8,7 @@ renv::restore()
 # This script takes the macroinvert data from the online RLS database, and adds the 2022 kelp forest RLS data from Kieran and Claire, and the 2024 RLS data that's not on the website yet and combines it
 # Then I've saved just the abalone csv for use in other scripts
 
-# Load packages and data -----
+# Load packages and functions -----
 # Load packages
 library(readr)
 library(tidyr)
@@ -18,7 +18,7 @@ library(lubridate) # for looking at dates
 # source file where my functions live
 source("Code/Functions.R")
 
-# Load data
+# Load and manipulate data ------
 # Load data from rls online database
 rls2021_2023 <- read_csv("Data/Raw_RLS/RLS_macroinverts_2021-2023.csv") %>%
   mutate(survey_date = ymd(survey_date)) %>%
@@ -67,9 +67,8 @@ abalone <- rls %>%
   filter(species_name == "Haliotis kamtschatkana")
   
 
-# save the abalone file
+# save the abalone file ----
 write_csv(abalone, "Data/abalone_RLS.csv")
-
 
 
 
