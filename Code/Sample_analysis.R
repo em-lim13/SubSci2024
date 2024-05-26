@@ -143,6 +143,8 @@ sum_crabs <- ggpredict(mod_cr_gamma, terms = "treatment") %>%
 
 # Make the plots
 # plot cukes
+
+set.seed(123) # jitter adds some randomness to the data, set seed so the plot is the same every time
 cuke_plot <- ggplot() +
   geom_point(data = sum_cukes,
              aes(x = cukes, y = nh4_avg, colour = cukes),
