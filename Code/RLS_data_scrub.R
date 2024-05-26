@@ -19,18 +19,28 @@ library(lubridate) # for looking at dates
 source("Code/Functions.R")
 
 # Load and manipulate data ------
-# Load data from rls online database
-rls2021_2023 <- read_csv("Data/Raw_RLS/RLS_macroinverts_2021-2023.csv") %>%
-  mutate(survey_date = ymd(survey_date)) %>%
-  filter(survey_date > "2020-01-01") %>%
-  # select columns
-  select(site_code, site_name, survey_date, latitude, longitude, depth, method, block, species_name, size_class, total)
 
 # load 2024 RLS data
 rls2024 <- mr_scrubby("Data/Raw_RLS/RLS_CANADA_2024.csv") # use function stored in Functions.R to load and manipulate this file
 
 # Load KCCA data
 rls_kelp <- mr_scrubby("Data/Raw_RLS/RLS_KCCA_2022.csv") # use function!
+
+# Load data from rls online database
+rls2021_2023 <- read_csv("Data/Raw_RLS/RLS_macroinverts_2021-2023.csv") %>%
+  mutate(survey_date = ymd(survey_date)) %>%
+  filter(survey_date > "2020-01-01") %>%
+  # the downloaded data doesn't have accurate coordinates, let's fix that
+  left_join(
+    (rbind(rls2024, rls_kelp) %>%
+       select(site_code, latitude, longitude) %>%
+       unique()), by = "site_code"
+  ) %>%
+  mutate(latitude = coalesce(latitude.y, latitude.x),
+         longitude = coalesce(longitude.y, longitude.x)) %>%
+  # select columns
+  select(site_code, site_name, survey_date, latitude, longitude, depth, method, block, species_name, size_class, total)
+
 
 # put them alllll together
 rls <- rbind(rls2021_2023, rls2024, rls_kelp) %>%

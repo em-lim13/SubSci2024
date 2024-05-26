@@ -32,7 +32,6 @@ source("Code/Functions.R")
 # Load abalone data 
 abalone <- read_csv("Data/abalone_RLS.csv")
 
-
 # Where are abalone? -----
 
 # this gives you a dataframe of the coordinates of each site and an average abalone density at each of them in case anyone wants to map this
@@ -43,6 +42,6 @@ aba_coords <- abalone %>%
          ) %>%
   ungroup() %>%
   select(site_code, site_name, survey_type, latitude, longitude, mean_total, mean_density) %>%
-  unique() 
+  unique()
 
 write_csv(aba_coords, "Data/abalone_coordinates.csv")

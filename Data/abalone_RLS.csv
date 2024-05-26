@@ -1,236 +1,236 @@
 site_code,survey_type,site_name,survey_date,latitude,longitude,depth,species_name,size_class,transect_total,density
-BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95,-125.16,6.5,Haliotis kamtschatkana,2.5,12,0.12
-BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95,-125.16,6.5,Haliotis kamtschatkana,7.5,9,0.09
-BMSC6,rocky reef,Baeria Rocks South Island,2021-04-29,48.95,-125.16,7,Haliotis kamtschatkana,10,1,0.01
-BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95,-125.16,6.5,Haliotis kamtschatkana,5,17,0.17
-BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95,-125.16,10,Haliotis kamtschatkana,2.5,8,0.08
-BMSC21,rocky reef,Dixon SW,2021-05-20,48.85,-125.12,5,Haliotis kamtschatkana,7.5,8,0.08
-BMSC21,rocky reef,Dixon SW,2021-05-20,48.85,-125.12,5,Haliotis kamtschatkana,15,3,0.03
-BMSC21,rocky reef,Dixon SW,2021-05-20,48.85,-125.12,5,Haliotis kamtschatkana,10,7,0.07
-BMSC21,rocky reef,Dixon SW,2022-04-25,48.85,-125.12,4.5,Haliotis kamtschatkana,2.5,4,0.04
-BMSC21,rocky reef,Dixon SW,2022-04-25,48.85,-125.12,4.5,Haliotis kamtschatkana,7.5,23,0.23
-BMSC21,rocky reef,Dixon SW,2022-04-25,48.85,-125.12,4.5,Haliotis kamtschatkana,12.5,4,0.04
-BMSC21,rocky reef,Dixon SW,2022-04-25,48.85,-125.12,4.5,Haliotis kamtschatkana,5,19,0.19
-BMSC21,rocky reef,Dixon SW,2022-04-25,48.85,-125.12,4.5,Haliotis kamtschatkana,15,1,0.01
-BMSC22,rocky reef,Dixon Inside,2022-04-25,48.85,-125.12,8.3,Haliotis kamtschatkana,7.5,2,0.02
-BMSC22,rocky reef,Dixon Inside,2023-05-08,48.85,-125.12,5.5,Haliotis kamtschatkana,5,4,0.04
-BMSC22,rocky reef,Dixon Inside,2023-05-08,48.85,-125.12,5.5,Haliotis kamtschatkana,7.5,4,0.04
-BMSC21,rocky reef,Dixon SW,2023-05-08,48.85,-125.12,6,Haliotis kamtschatkana,5,25,0.25
-BMSC21,rocky reef,Dixon SW,2023-05-08,48.85,-125.12,6,Haliotis kamtschatkana,10,1,0.01
-BMSC3,rocky reef,Ohiat,2021-04-27,48.86,-125.18,5.5,Haliotis kamtschatkana,7.5,27,0.27
-BMSC3,rocky reef,Ohiat,2021-04-27,48.86,-125.18,5.5,Haliotis kamtschatkana,10,25,0.25
-BMSC3,rocky reef,Ohiat,2021-04-27,48.86,-125.18,5.5,Haliotis kamtschatkana,15,2,0.02
-BMSC3,rocky reef,Ohiat,2022-05-05,48.86,-125.18,6.5,Haliotis kamtschatkana,0,40,0.4
-BMSC3,rocky reef,Ohiat,2023-05-12,48.86,-125.18,7.5,Haliotis kamtschatkana,2.5,30,0.3
-BMSC3,rocky reef,Ohiat,2023-05-12,48.86,-125.18,7.5,Haliotis kamtschatkana,5,8,0.08
-BMSC17,rocky reef,Wouwer Channel,2021-05-05,48.87,-125.36,5,Haliotis kamtschatkana,5,1,0.01
-BMSC17,rocky reef,Wouwer Channel,2021-05-05,48.87,-125.36,5,Haliotis kamtschatkana,7.5,2,0.02
-BMSC17,rocky reef,Wouwer Channel,2022-04-27,48.87,-125.36,5,Haliotis kamtschatkana,2.5,1,0.01
-BMSC17,rocky reef,Wouwer Channel,2022-04-27,48.87,-125.36,5,Haliotis kamtschatkana,5,6,0.06
-BMSC17,rocky reef,Wouwer Channel,2022-04-27,48.87,-125.36,5,Haliotis kamtschatkana,10,2,0.02
-BMSC17,rocky reef,Wouwer Channel,2022-04-27,48.87,-125.36,5,Haliotis kamtschatkana,12.5,2,0.02
-BMSC13,rocky reef,Effingham West,2022-04-26,48.87,-125.31,4.5,Haliotis kamtschatkana,5,3,0.03
-BMSC1,rocky reef,Dodger Channel,2021-04-26,48.83,-125.2,6.5,Haliotis kamtschatkana,2.5,3,0.03
-BMSC1,rocky reef,Dodger Channel,2021-04-26,48.83,-125.2,6.5,Haliotis kamtschatkana,5,1,0.01
-BMSC1,rocky reef,Dodger Channel,2021-04-26,48.83,-125.2,5.5,Haliotis kamtschatkana,10,4,0.04
-BMSC1,rocky reef,Dodger Channel,2021-04-26,48.83,-125.2,5.5,Haliotis kamtschatkana,7.5,3,0.03
-BMSC5,rocky reef,Taylor Rock,2022-05-04,48.83,-125.2,6.2,Haliotis kamtschatkana,10,4,0.04
-BMSC5,rocky reef,Taylor Rock,2022-05-04,48.83,-125.2,6.2,Haliotis kamtschatkana,7.5,7,0.07
-BMSC5,rocky reef,Taylor Rock,2022-05-04,48.83,-125.2,6,Haliotis kamtschatkana,5,3,0.03
-BMSC1,rocky reef,Dodger Channel,2022-05-04,48.83,-125.2,5.5,Haliotis kamtschatkana,5,4,0.04
-BMSC1,rocky reef,Dodger Channel,2022-05-04,48.83,-125.2,5.5,Haliotis kamtschatkana,10,3,0.03
-BMSC1,rocky reef,Dodger Channel,2022-05-04,48.83,-125.2,5.5,Haliotis kamtschatkana,12.5,1,0.01
-BMSC1,rocky reef,Dodger Channel,2023-05-15,48.83,-125.2,8,Haliotis kamtschatkana,12.5,7,0.07
-BMSC1,rocky reef,Dodger Channel,2023-05-15,48.83,-125.2,8,Haliotis kamtschatkana,2.5,1,0.01
-BMSC1,rocky reef,Dodger Channel,2023-05-15,48.83,-125.2,8,Haliotis kamtschatkana,10,7,0.07
-BMSC1,rocky reef,Dodger Channel,2023-05-15,48.83,-125.2,8,Haliotis kamtschatkana,15,1,0.01
-BMSC5,rocky reef,Taylor Rock,2023-05-15,48.83,-125.2,5.5,Haliotis kamtschatkana,5,10,0.1
-BMSC5,rocky reef,Taylor Rock,2023-05-15,48.83,-125.2,5.5,Haliotis kamtschatkana,0,13,0.13
-BMSC5,rocky reef,Taylor Rock,2021-04-28,48.83,-125.2,6.5,Haliotis kamtschatkana,10,2,0.02
-BMSC5,rocky reef,Taylor Rock,2021-04-28,48.83,-125.2,6.5,Haliotis kamtschatkana,15,2,0.02
-BMSC5,rocky reef,Taylor Rock,2021-04-28,48.83,-125.2,6.5,Haliotis kamtschatkana,20,1,0.01
-BMSC16,rocky reef,Faber Islets,2021-05-05,48.89,-125.3,6,Haliotis kamtschatkana,10,7,0.07
-BMSC16,rocky reef,Faber Islets,2021-05-05,48.89,-125.3,6,Haliotis kamtschatkana,12.5,3,0.03
-BMSC16,rocky reef,Faber Islets,2021-05-05,48.89,-125.3,6,Haliotis kamtschatkana,2.5,2,0.02
-BMSC16,rocky reef,Faber Islets,2022-04-27,48.89,-125.3,5.5,Haliotis kamtschatkana,0,22,0.22
-BMSC18,rocky reef,Eussen Rock,2021-05-05,48.91,-125.27,7.5,Haliotis kamtschatkana,7.5,2,0.02
-BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91,-125.27,7.5,Haliotis kamtschatkana,12.5,1,0.01
-BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91,-125.27,7.5,Haliotis kamtschatkana,15,2,0.02
-BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91,-125.27,7.5,Haliotis kamtschatkana,2.5,5,0.05
-BMSC16,rocky reef,Faber Islets,2021-05-05,48.89,-125.3,6,Haliotis kamtschatkana,5,9,0.09
-BMSC16,rocky reef,Faber Islets,2021-05-05,48.89,-125.3,6,Haliotis kamtschatkana,7.5,8,0.08
-BMSC16,rocky reef,Faber Islets,2022-04-27,48.89,-125.3,5.5,Haliotis kamtschatkana,5,8,0.08
-BMSC16,rocky reef,Faber Islets,2022-04-27,48.89,-125.3,5.5,Haliotis kamtschatkana,7.5,8,0.08
-BMSC15,rocky reef,Raymond Kelp Rock,2022-04-26,48.88,-125.31,7.5,Haliotis kamtschatkana,5,2,0.02
-BMSC21,rocky reef,Dixon SW,2023-05-08,48.85,-125.12,6,Haliotis kamtschatkana,7.5,17,0.17
-BMSC21,rocky reef,Dixon SW,2021-05-20,48.85,-125.12,5,Haliotis kamtschatkana,12.5,4,0.04
-BMSC21,rocky reef,Dixon SW,2022-04-25,48.85,-125.12,4.5,Haliotis kamtschatkana,10,13,0.13
-BMSC10,rocky reef,Ross Islets Slug Island,2022-05-05,48.87,-125.16,5,Haliotis kamtschatkana,10,1,0.01
-BMSC10,rocky reef,Ross Islets Slug Island,2022-05-05,48.87,-125.16,5,Haliotis kamtschatkana,12.5,1,0.01
-BMSC10,rocky reef,Ross Islets Slug Island,2022-05-05,48.87,-125.16,5,Haliotis kamtschatkana,5,16,0.16
-BMSC10,rocky reef,Ross Islets Slug Island,2022-05-05,48.87,-125.16,5,Haliotis kamtschatkana,7.5,15,0.15
-BMSC10,rocky reef,Ross Islets Slug Island,2023-05-09,48.87,-125.16,4,Haliotis kamtschatkana,5,2,0.02
-BMSC10,rocky reef,Ross Islets Slug Island,2023-05-09,48.87,-125.16,4,Haliotis kamtschatkana,7.5,3,0.03
-BMSC10,rocky reef,Ross Islets Slug Island,2023-05-09,48.87,-125.16,4,Haliotis kamtschatkana,12.5,1,0.01
-BMSC10,rocky reef,Ross Islets Slug Island,2023-06-14,48.87,-125.16,2.7,Haliotis kamtschatkana,7.5,14,0.14
-BMSC10,rocky reef,Ross Islets Slug Island,2023-06-14,48.87,-125.16,2.7,Haliotis kamtschatkana,12.5,5,0.05
-BMSC2,rocky reef,Kirby,2021-04-27,48.85,-125.2,4.5,Haliotis kamtschatkana,5,5,0.05
-BMSC2,rocky reef,Kirby,2021-04-27,48.85,-125.2,4.5,Haliotis kamtschatkana,7.5,6,0.06
-BMSC2,rocky reef,Kirby,2021-04-27,48.85,-125.2,4.5,Haliotis kamtschatkana,10,4,0.04
-BMSC2,rocky reef,Kirby,2021-04-27,48.85,-125.2,4.5,Haliotis kamtschatkana,15,1,0.01
-BMSC2,rocky reef,Kirby,2021-04-27,48.85,-125.2,4.5,Haliotis kamtschatkana,12.5,1,0.01
-BMSC2,rocky reef,Kirby,2023-05-09,48.85,-125.2,7,Haliotis kamtschatkana,2.5,1,0.01
-BMSC2,rocky reef,Kirby,2023-05-09,48.85,-125.2,7,Haliotis kamtschatkana,5,7,0.07
-BMSC2,rocky reef,Kirby,2023-05-09,48.85,-125.2,7,Haliotis kamtschatkana,7.5,5,0.05
-BMSC2,rocky reef,Kirby,2023-05-09,48.85,-125.2,7,Haliotis kamtschatkana,10,1,0.01
-BMSC2,rocky reef,Kirby,2023-05-09,48.85,-125.2,7,Haliotis kamtschatkana,0,22,0.22
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2021-04-29,48.96,-125.15,9,Haliotis kamtschatkana,5,10,0.1
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2021-04-29,48.96,-125.15,9,Haliotis kamtschatkana,10,2,0.02
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2022-04-28,48.96,-125.15,6,Haliotis kamtschatkana,2.5,11,0.11
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.96,-125.15,9,Haliotis kamtschatkana,5,3,0.03
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.96,-125.15,9,Haliotis kamtschatkana,7.5,1,0.01
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.96,-125.15,9,Haliotis kamtschatkana,0,12,0.12
-BMSC6,rocky reef,Baeria Rocks South Island,2021-04-29,48.95,-125.16,7,Haliotis kamtschatkana,2.5,4,0.04
-BMSC6,rocky reef,Baeria Rocks South Island,2021-04-29,48.95,-125.16,7,Haliotis kamtschatkana,5,12,0.12
-BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95,-125.16,9,Haliotis kamtschatkana,5,8,0.08
-BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95,-125.16,6.5,Haliotis kamtschatkana,10,1,0.01
-BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95,-125.16,5.5,Haliotis kamtschatkana,2.5,8,0.08
-BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95,-125.16,5.5,Haliotis kamtschatkana,5,3,0.03
-BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95,-125.16,5.5,Haliotis kamtschatkana,10,1,0.01
-BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95,-125.16,10,Haliotis kamtschatkana,5,4,0.04
-BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95,-125.16,10,Haliotis kamtschatkana,0,6,0.06
-BMSC6,rocky reef,Baeria Rocks South Island,2021-04-29,48.95,-125.16,7,Haliotis kamtschatkana,7.5,3,0.03
-BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95,-125.16,9,Haliotis kamtschatkana,2.5,6,0.06
-BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95,-125.16,9,Haliotis kamtschatkana,7.5,1,0.01
-BMSC21,rocky reef,Dixon SW,2021-05-20,48.85,-125.12,5,Haliotis kamtschatkana,5,10,0.1
-BMSC21,rocky reef,Dixon SW,2021-05-20,48.85,-125.12,5,Haliotis kamtschatkana,20,2,0.02
-BMSC21,rocky reef,Dixon SW,2023-05-08,48.85,-125.12,6,Haliotis kamtschatkana,0,82,0.82
-BMSC21,rocky reef,Dixon SW,2023-05-08,48.85,-125.12,6,Haliotis kamtschatkana,2.5,16,0.16
+BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95023346,-125.1555481,6.5,Haliotis kamtschatkana,2.5,12,0.12
+BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95023346,-125.1555481,6.5,Haliotis kamtschatkana,7.5,9,0.09
+BMSC6,rocky reef,Baeria Rocks South Island,2021-04-29,48.95023346,-125.1555481,7,Haliotis kamtschatkana,10,1,0.01
+BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95023346,-125.1555481,6.5,Haliotis kamtschatkana,5,17,0.17
+BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95023346,-125.1555481,10,Haliotis kamtschatkana,2.5,8,0.08
+BMSC21,rocky reef,Dixon SW,2021-05-20,48.85205078,-125.1235657,5,Haliotis kamtschatkana,7.5,8,0.08
+BMSC21,rocky reef,Dixon SW,2021-05-20,48.85205078,-125.1235657,5,Haliotis kamtschatkana,15,3,0.03
+BMSC21,rocky reef,Dixon SW,2021-05-20,48.85205078,-125.1235657,5,Haliotis kamtschatkana,10,7,0.07
+BMSC21,rocky reef,Dixon SW,2022-04-25,48.85205078,-125.1235657,4.5,Haliotis kamtschatkana,2.5,4,0.04
+BMSC21,rocky reef,Dixon SW,2022-04-25,48.85205078,-125.1235657,4.5,Haliotis kamtschatkana,7.5,23,0.23
+BMSC21,rocky reef,Dixon SW,2022-04-25,48.85205078,-125.1235657,4.5,Haliotis kamtschatkana,12.5,4,0.04
+BMSC21,rocky reef,Dixon SW,2022-04-25,48.85205078,-125.1235657,4.5,Haliotis kamtschatkana,5,19,0.19
+BMSC21,rocky reef,Dixon SW,2022-04-25,48.85205078,-125.1235657,4.5,Haliotis kamtschatkana,15,1,0.01
+BMSC22,rocky reef,Dixon Inside,2022-04-25,48.85426712,-125.1170349,8.3,Haliotis kamtschatkana,7.5,2,0.02
+BMSC22,rocky reef,Dixon Inside,2023-05-08,48.85426712,-125.1170349,5.5,Haliotis kamtschatkana,5,4,0.04
+BMSC22,rocky reef,Dixon Inside,2023-05-08,48.85426712,-125.1170349,5.5,Haliotis kamtschatkana,7.5,4,0.04
+BMSC21,rocky reef,Dixon SW,2023-05-08,48.85205078,-125.1235657,6,Haliotis kamtschatkana,5,25,0.25
+BMSC21,rocky reef,Dixon SW,2023-05-08,48.85205078,-125.1235657,6,Haliotis kamtschatkana,10,1,0.01
+BMSC3,rocky reef,Ohiat,2021-04-27,48.85558319,-125.1837997,5.5,Haliotis kamtschatkana,7.5,27,0.27
+BMSC3,rocky reef,Ohiat,2021-04-27,48.85558319,-125.1837997,5.5,Haliotis kamtschatkana,10,25,0.25
+BMSC3,rocky reef,Ohiat,2021-04-27,48.85558319,-125.1837997,5.5,Haliotis kamtschatkana,15,2,0.02
+BMSC3,rocky reef,Ohiat,2022-05-05,48.85558319,-125.1837997,6.5,Haliotis kamtschatkana,0,40,0.4
+BMSC3,rocky reef,Ohiat,2023-05-12,48.85558319,-125.1837997,7.5,Haliotis kamtschatkana,2.5,30,0.3
+BMSC3,rocky reef,Ohiat,2023-05-12,48.85558319,-125.1837997,7.5,Haliotis kamtschatkana,5,8,0.08
+BMSC17,rocky reef,Wouwer Channel,2021-05-05,48.86548233,-125.3614807,5,Haliotis kamtschatkana,5,1,0.01
+BMSC17,rocky reef,Wouwer Channel,2021-05-05,48.86548233,-125.3614807,5,Haliotis kamtschatkana,7.5,2,0.02
+BMSC17,rocky reef,Wouwer Channel,2022-04-27,48.86548233,-125.3614807,5,Haliotis kamtschatkana,2.5,1,0.01
+BMSC17,rocky reef,Wouwer Channel,2022-04-27,48.86548233,-125.3614807,5,Haliotis kamtschatkana,5,6,0.06
+BMSC17,rocky reef,Wouwer Channel,2022-04-27,48.86548233,-125.3614807,5,Haliotis kamtschatkana,10,2,0.02
+BMSC17,rocky reef,Wouwer Channel,2022-04-27,48.86548233,-125.3614807,5,Haliotis kamtschatkana,12.5,2,0.02
+BMSC13,rocky reef,Effingham West,2022-04-26,48.8650322,-125.3137207,4.5,Haliotis kamtschatkana,5,3,0.03
+BMSC1,rocky reef,Dodger Channel,2021-04-26,48.82894897,-125.1975708,6.5,Haliotis kamtschatkana,2.5,3,0.03
+BMSC1,rocky reef,Dodger Channel,2021-04-26,48.82894897,-125.1975708,6.5,Haliotis kamtschatkana,5,1,0.01
+BMSC1,rocky reef,Dodger Channel,2021-04-26,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,10,4,0.04
+BMSC1,rocky reef,Dodger Channel,2021-04-26,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,7.5,3,0.03
+BMSC5,rocky reef,Taylor Rock,2022-05-04,48.82733154,-125.1966019,6.2,Haliotis kamtschatkana,10,4,0.04
+BMSC5,rocky reef,Taylor Rock,2022-05-04,48.82733154,-125.1966019,6.2,Haliotis kamtschatkana,7.5,7,0.07
+BMSC5,rocky reef,Taylor Rock,2022-05-04,48.82733154,-125.1966019,6,Haliotis kamtschatkana,5,3,0.03
+BMSC1,rocky reef,Dodger Channel,2022-05-04,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,5,4,0.04
+BMSC1,rocky reef,Dodger Channel,2022-05-04,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,10,3,0.03
+BMSC1,rocky reef,Dodger Channel,2022-05-04,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,12.5,1,0.01
+BMSC1,rocky reef,Dodger Channel,2023-05-15,48.82894897,-125.1975708,8,Haliotis kamtschatkana,12.5,7,0.07
+BMSC1,rocky reef,Dodger Channel,2023-05-15,48.82894897,-125.1975708,8,Haliotis kamtschatkana,2.5,1,0.01
+BMSC1,rocky reef,Dodger Channel,2023-05-15,48.82894897,-125.1975708,8,Haliotis kamtschatkana,10,7,0.07
+BMSC1,rocky reef,Dodger Channel,2023-05-15,48.82894897,-125.1975708,8,Haliotis kamtschatkana,15,1,0.01
+BMSC5,rocky reef,Taylor Rock,2023-05-15,48.82733154,-125.1966019,5.5,Haliotis kamtschatkana,5,10,0.1
+BMSC5,rocky reef,Taylor Rock,2023-05-15,48.82733154,-125.1966019,5.5,Haliotis kamtschatkana,0,13,0.13
+BMSC5,rocky reef,Taylor Rock,2021-04-28,48.82733154,-125.1966019,6.5,Haliotis kamtschatkana,10,2,0.02
+BMSC5,rocky reef,Taylor Rock,2021-04-28,48.82733154,-125.1966019,6.5,Haliotis kamtschatkana,15,2,0.02
+BMSC5,rocky reef,Taylor Rock,2021-04-28,48.82733154,-125.1966019,6.5,Haliotis kamtschatkana,20,1,0.01
+BMSC16,rocky reef,Faber Islets,2021-05-05,48.89070129,-125.300499,6,Haliotis kamtschatkana,10,7,0.07
+BMSC16,rocky reef,Faber Islets,2021-05-05,48.89070129,-125.300499,6,Haliotis kamtschatkana,12.5,3,0.03
+BMSC16,rocky reef,Faber Islets,2021-05-05,48.89070129,-125.300499,6,Haliotis kamtschatkana,2.5,2,0.02
+BMSC16,rocky reef,Faber Islets,2022-04-27,48.89070129,-125.300499,5.5,Haliotis kamtschatkana,0,22,0.22
+BMSC18,rocky reef,Eussen Rock,2021-05-05,48.91161728,-125.2670364,7.5,Haliotis kamtschatkana,7.5,2,0.02
+BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91161728,-125.2670364,7.5,Haliotis kamtschatkana,12.5,1,0.01
+BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91161728,-125.2670364,7.5,Haliotis kamtschatkana,15,2,0.02
+BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91161728,-125.2670364,7.5,Haliotis kamtschatkana,2.5,5,0.05
+BMSC16,rocky reef,Faber Islets,2021-05-05,48.89070129,-125.300499,6,Haliotis kamtschatkana,5,9,0.09
+BMSC16,rocky reef,Faber Islets,2021-05-05,48.89070129,-125.300499,6,Haliotis kamtschatkana,7.5,8,0.08
+BMSC16,rocky reef,Faber Islets,2022-04-27,48.89070129,-125.300499,5.5,Haliotis kamtschatkana,5,8,0.08
+BMSC16,rocky reef,Faber Islets,2022-04-27,48.89070129,-125.300499,5.5,Haliotis kamtschatkana,7.5,8,0.08
+BMSC15,rocky reef,Raymond Kelp Rock,2022-04-26,48.88028336,-125.3128815,7.5,Haliotis kamtschatkana,5,2,0.02
+BMSC21,rocky reef,Dixon SW,2023-05-08,48.85205078,-125.1235657,6,Haliotis kamtschatkana,7.5,17,0.17
+BMSC21,rocky reef,Dixon SW,2021-05-20,48.85205078,-125.1235657,5,Haliotis kamtschatkana,12.5,4,0.04
+BMSC21,rocky reef,Dixon SW,2022-04-25,48.85205078,-125.1235657,4.5,Haliotis kamtschatkana,10,13,0.13
+BMSC10,rocky reef,Ross Islets Slug Island,2022-05-05,48.87051773,-125.160347,5,Haliotis kamtschatkana,10,1,0.01
+BMSC10,rocky reef,Ross Islets Slug Island,2022-05-05,48.87051773,-125.160347,5,Haliotis kamtschatkana,12.5,1,0.01
+BMSC10,rocky reef,Ross Islets Slug Island,2022-05-05,48.87051773,-125.160347,5,Haliotis kamtschatkana,5,16,0.16
+BMSC10,rocky reef,Ross Islets Slug Island,2022-05-05,48.87051773,-125.160347,5,Haliotis kamtschatkana,7.5,15,0.15
+BMSC10,rocky reef,Ross Islets Slug Island,2023-05-09,48.87051773,-125.160347,4,Haliotis kamtschatkana,5,2,0.02
+BMSC10,rocky reef,Ross Islets Slug Island,2023-05-09,48.87051773,-125.160347,4,Haliotis kamtschatkana,7.5,3,0.03
+BMSC10,rocky reef,Ross Islets Slug Island,2023-05-09,48.87051773,-125.160347,4,Haliotis kamtschatkana,12.5,1,0.01
+BMSC10,rocky reef,Ross Islets Slug Island,2023-06-14,48.87051773,-125.160347,2.7,Haliotis kamtschatkana,7.5,14,0.14
+BMSC10,rocky reef,Ross Islets Slug Island,2023-06-14,48.87051773,-125.160347,2.7,Haliotis kamtschatkana,12.5,5,0.05
+BMSC2,rocky reef,Kirby,2021-04-27,48.85039902,-125.1987686,4.5,Haliotis kamtschatkana,5,5,0.05
+BMSC2,rocky reef,Kirby,2021-04-27,48.85039902,-125.1987686,4.5,Haliotis kamtschatkana,7.5,6,0.06
+BMSC2,rocky reef,Kirby,2021-04-27,48.85039902,-125.1987686,4.5,Haliotis kamtschatkana,10,4,0.04
+BMSC2,rocky reef,Kirby,2021-04-27,48.85039902,-125.1987686,4.5,Haliotis kamtschatkana,15,1,0.01
+BMSC2,rocky reef,Kirby,2021-04-27,48.85039902,-125.1987686,4.5,Haliotis kamtschatkana,12.5,1,0.01
+BMSC2,rocky reef,Kirby,2023-05-09,48.85039902,-125.1987686,7,Haliotis kamtschatkana,2.5,1,0.01
+BMSC2,rocky reef,Kirby,2023-05-09,48.85039902,-125.1987686,7,Haliotis kamtschatkana,5,7,0.07
+BMSC2,rocky reef,Kirby,2023-05-09,48.85039902,-125.1987686,7,Haliotis kamtschatkana,7.5,5,0.05
+BMSC2,rocky reef,Kirby,2023-05-09,48.85039902,-125.1987686,7,Haliotis kamtschatkana,10,1,0.01
+BMSC2,rocky reef,Kirby,2023-05-09,48.85039902,-125.1987686,7,Haliotis kamtschatkana,0,22,0.22
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2021-04-29,48.95508194,-125.1533737,9,Haliotis kamtschatkana,5,10,0.1
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2021-04-29,48.95508194,-125.1533737,9,Haliotis kamtschatkana,10,2,0.02
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2022-04-28,48.95508194,-125.1533737,6,Haliotis kamtschatkana,2.5,11,0.11
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.95508194,-125.1533737,9,Haliotis kamtschatkana,5,3,0.03
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.95508194,-125.1533737,9,Haliotis kamtschatkana,7.5,1,0.01
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.95508194,-125.1533737,9,Haliotis kamtschatkana,0,12,0.12
+BMSC6,rocky reef,Baeria Rocks South Island,2021-04-29,48.95023346,-125.1555481,7,Haliotis kamtschatkana,2.5,4,0.04
+BMSC6,rocky reef,Baeria Rocks South Island,2021-04-29,48.95023346,-125.1555481,7,Haliotis kamtschatkana,5,12,0.12
+BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95023346,-125.1555481,9,Haliotis kamtschatkana,5,8,0.08
+BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95023346,-125.1555481,6.5,Haliotis kamtschatkana,10,1,0.01
+BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95023346,-125.1555481,5.5,Haliotis kamtschatkana,2.5,8,0.08
+BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95023346,-125.1555481,5.5,Haliotis kamtschatkana,5,3,0.03
+BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95023346,-125.1555481,5.5,Haliotis kamtschatkana,10,1,0.01
+BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95023346,-125.1555481,10,Haliotis kamtschatkana,5,4,0.04
+BMSC6,rocky reef,Baeria Rocks South Island,2023-05-17,48.95023346,-125.1555481,10,Haliotis kamtschatkana,0,6,0.06
+BMSC6,rocky reef,Baeria Rocks South Island,2021-04-29,48.95023346,-125.1555481,7,Haliotis kamtschatkana,7.5,3,0.03
+BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95023346,-125.1555481,9,Haliotis kamtschatkana,2.5,6,0.06
+BMSC6,rocky reef,Baeria Rocks South Island,2022-04-28,48.95023346,-125.1555481,9,Haliotis kamtschatkana,7.5,1,0.01
+BMSC21,rocky reef,Dixon SW,2021-05-20,48.85205078,-125.1235657,5,Haliotis kamtschatkana,5,10,0.1
+BMSC21,rocky reef,Dixon SW,2021-05-20,48.85205078,-125.1235657,5,Haliotis kamtschatkana,20,2,0.02
+BMSC21,rocky reef,Dixon SW,2023-05-08,48.85205078,-125.1235657,6,Haliotis kamtschatkana,0,82,0.82
+BMSC21,rocky reef,Dixon SW,2023-05-08,48.85205078,-125.1235657,6,Haliotis kamtschatkana,2.5,16,0.16
 BMSC31,rocky reef,Dodger Channel 2,2023-06-09,48.83,-125.19,2,Haliotis kamtschatkana,7.5,1,0.01
 BMSC31,rocky reef,Dodger Channel 2,2023-06-09,48.83,-125.19,2,Haliotis kamtschatkana,2.5,1,0.01
 BMSC31,rocky reef,Dodger Channel 2,2023-06-09,48.83,-125.19,2,Haliotis kamtschatkana,5,2,0.02
-BMSC9,rocky reef,Eagle Bay,2023-05-11,48.83,-125.15,6,Haliotis kamtschatkana,7.5,5,0.05
-BMSC9,rocky reef,Eagle Bay,2023-05-11,48.83,-125.15,6,Haliotis kamtschatkana,5,27,0.27
-BMSC9,rocky reef,Eagle Bay,2023-05-11,48.83,-125.15,6,Haliotis kamtschatkana,10,2,0.02
-BMSC19,rocky reef,Ed King SW Pyramid,2021-05-06,48.83,-125.22,8,Haliotis kamtschatkana,12.5,4,0.04
-BMSC19,rocky reef,Ed King SW Pyramid,2021-05-06,48.83,-125.22,8,Haliotis kamtschatkana,5,4,0.04
-BMSC19,rocky reef,Ed King SW Pyramid,2022-04-29,48.83,-125.22,8,Haliotis kamtschatkana,5,7,0.07
-BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.83,-125.22,6.5,Haliotis kamtschatkana,0,50,0.5
-BMSC19,rocky reef,Ed King SW Pyramid,2021-05-06,48.83,-125.22,8,Haliotis kamtschatkana,7.5,5,0.05
-BMSC19,rocky reef,Ed King SW Pyramid,2021-05-06,48.83,-125.22,8,Haliotis kamtschatkana,2.5,3,0.03
-BMSC19,rocky reef,Ed King SW Pyramid,2021-05-06,48.83,-125.22,8,Haliotis kamtschatkana,10,5,0.05
-BMSC19,rocky reef,Ed King SW Pyramid,2022-04-29,48.83,-125.22,8,Haliotis kamtschatkana,7.5,6,0.06
-BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.83,-125.22,6.5,Haliotis kamtschatkana,7.5,7,0.07
-BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.83,-125.22,6.5,Haliotis kamtschatkana,10,8,0.08
-BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.83,-125.22,6.5,Haliotis kamtschatkana,12.5,1,0.01
-BMSC11,rocky reef,Wizard Island South,2021-05-03,48.86,-125.16,5.5,Haliotis kamtschatkana,10,2,0.02
-BMSC12,rocky reef,Wizard Island North,2021-05-03,48.86,-125.16,5.5,Haliotis kamtschatkana,10,4,0.04
-BMSC12,rocky reef,Wizard Island North,2021-05-03,48.86,-125.16,5.5,Haliotis kamtschatkana,12.5,6,0.06
-BMSC12,rocky reef,Wizard Island North,2022-05-03,48.86,-125.16,9,Haliotis kamtschatkana,2.5,2,0.02
-BMSC12,rocky reef,Wizard Island North,2022-05-03,48.86,-125.16,9,Haliotis kamtschatkana,5,2,0.02
-BMSC11,rocky reef,Wizard Island South,2022-05-03,48.86,-125.16,4,Haliotis kamtschatkana,7.5,1,0.01
-BMSC12,rocky reef,Wizard Island North,2022-05-03,48.86,-125.16,5,Haliotis kamtschatkana,7.5,4,0.04
-BMSC12,rocky reef,Wizard Island North,2023-05-16,48.86,-125.16,9,Haliotis kamtschatkana,7.5,7,0.07
-BMSC12,rocky reef,Wizard Island North,2023-05-16,48.86,-125.16,9,Haliotis kamtschatkana,10,3,0.03
-BMSC12,rocky reef,Wizard Island North,2023-05-16,48.86,-125.16,6.5,Haliotis kamtschatkana,7.5,9,0.09
-BMSC12,rocky reef,Wizard Island North,2023-05-16,48.86,-125.16,6.5,Haliotis kamtschatkana,10,15,0.15
-BMSC5,rocky reef,Taylor Rock,2023-05-15,48.83,-125.2,8,Haliotis kamtschatkana,5,9,0.09
-BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83,-125.15,6,Haliotis kamtschatkana,12.5,1,0.01
-BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83,-125.15,6,Haliotis kamtschatkana,2.5,2,0.02
-BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83,-125.15,6,Haliotis kamtschatkana,7.5,3,0.03
-BMSC20,rocky reef,Ed King East,2021-05-06,48.84,-125.21,7,Haliotis kamtschatkana,12.5,1,0.01
-BMSC20,rocky reef,Ed King East,2022-04-29,48.84,-125.21,6.5,Haliotis kamtschatkana,5,8,0.08
-BMSC20,rocky reef,Ed King East,2022-04-29,48.84,-125.21,6.5,Haliotis kamtschatkana,10,6,0.06
+BMSC9,rocky reef,Eagle Bay,2023-05-11,48.83478928,-125.1470261,6,Haliotis kamtschatkana,7.5,5,0.05
+BMSC9,rocky reef,Eagle Bay,2023-05-11,48.83478928,-125.1470261,6,Haliotis kamtschatkana,5,27,0.27
+BMSC9,rocky reef,Eagle Bay,2023-05-11,48.83478928,-125.1470261,6,Haliotis kamtschatkana,10,2,0.02
+BMSC19,rocky reef,Ed King SW Pyramid,2021-05-06,48.82860184,-125.2212982,8,Haliotis kamtschatkana,12.5,4,0.04
+BMSC19,rocky reef,Ed King SW Pyramid,2021-05-06,48.82860184,-125.2212982,8,Haliotis kamtschatkana,5,4,0.04
+BMSC19,rocky reef,Ed King SW Pyramid,2022-04-29,48.82860184,-125.2212982,8,Haliotis kamtschatkana,5,7,0.07
+BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.82860184,-125.2212982,6.5,Haliotis kamtschatkana,0,50,0.5
+BMSC19,rocky reef,Ed King SW Pyramid,2021-05-06,48.82860184,-125.2212982,8,Haliotis kamtschatkana,7.5,5,0.05
+BMSC19,rocky reef,Ed King SW Pyramid,2021-05-06,48.82860184,-125.2212982,8,Haliotis kamtschatkana,2.5,3,0.03
+BMSC19,rocky reef,Ed King SW Pyramid,2021-05-06,48.82860184,-125.2212982,8,Haliotis kamtschatkana,10,5,0.05
+BMSC19,rocky reef,Ed King SW Pyramid,2022-04-29,48.82860184,-125.2212982,8,Haliotis kamtschatkana,7.5,6,0.06
+BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.82860184,-125.2212982,6.5,Haliotis kamtschatkana,7.5,7,0.07
+BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.82860184,-125.2212982,6.5,Haliotis kamtschatkana,10,8,0.08
+BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.82860184,-125.2212982,6.5,Haliotis kamtschatkana,12.5,1,0.01
+BMSC11,rocky reef,Wizard Island South,2021-05-03,48.85746765,-125.1582336,5.5,Haliotis kamtschatkana,10,2,0.02
+BMSC12,rocky reef,Wizard Island North,2021-05-03,48.858284,-125.1609192,5.5,Haliotis kamtschatkana,10,4,0.04
+BMSC12,rocky reef,Wizard Island North,2021-05-03,48.858284,-125.1609192,5.5,Haliotis kamtschatkana,12.5,6,0.06
+BMSC12,rocky reef,Wizard Island North,2022-05-03,48.858284,-125.1609192,9,Haliotis kamtschatkana,2.5,2,0.02
+BMSC12,rocky reef,Wizard Island North,2022-05-03,48.858284,-125.1609192,9,Haliotis kamtschatkana,5,2,0.02
+BMSC11,rocky reef,Wizard Island South,2022-05-03,48.85746765,-125.1582336,4,Haliotis kamtschatkana,7.5,1,0.01
+BMSC12,rocky reef,Wizard Island North,2022-05-03,48.858284,-125.1609192,5,Haliotis kamtschatkana,7.5,4,0.04
+BMSC12,rocky reef,Wizard Island North,2023-05-16,48.858284,-125.1609192,9,Haliotis kamtschatkana,7.5,7,0.07
+BMSC12,rocky reef,Wizard Island North,2023-05-16,48.858284,-125.1609192,9,Haliotis kamtschatkana,10,3,0.03
+BMSC12,rocky reef,Wizard Island North,2023-05-16,48.858284,-125.1609192,6.5,Haliotis kamtschatkana,7.5,9,0.09
+BMSC12,rocky reef,Wizard Island North,2023-05-16,48.858284,-125.1609192,6.5,Haliotis kamtschatkana,10,15,0.15
+BMSC5,rocky reef,Taylor Rock,2023-05-15,48.82733154,-125.1966019,8,Haliotis kamtschatkana,5,9,0.09
+BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83478928,-125.1470261,6,Haliotis kamtschatkana,12.5,1,0.01
+BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83478928,-125.1470261,6,Haliotis kamtschatkana,2.5,2,0.02
+BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83478928,-125.1470261,6,Haliotis kamtschatkana,7.5,3,0.03
+BMSC20,rocky reef,Ed King East,2021-05-06,48.83566666,-125.214798,7,Haliotis kamtschatkana,12.5,1,0.01
+BMSC20,rocky reef,Ed King East,2022-04-29,48.83566666,-125.214798,6.5,Haliotis kamtschatkana,5,8,0.08
+BMSC20,rocky reef,Ed King East,2022-04-29,48.83566666,-125.214798,6.5,Haliotis kamtschatkana,10,6,0.06
 BMSC33,rocky reef,Ed King East Inside,2023-06-06,48.84,-125.21,2,Haliotis kamtschatkana,7.5,22,0.22
 BMSC33,rocky reef,Ed King East Inside,2023-06-06,48.84,-125.21,2,Haliotis kamtschatkana,10,20,0.2
 BMSC33,rocky reef,Ed King East Inside,2023-06-06,48.84,-125.21,2,Haliotis kamtschatkana,12.5,5,0.05
 BMSC33,rocky reef,Ed King East Inside,2023-06-06,48.84,-125.21,2,Haliotis kamtschatkana,2.5,3,0.03
-BMSC4,rocky reef,Kii xin,2021-04-28,48.82,-125.18,7.5,Haliotis kamtschatkana,0,1,0.01
-BMSC4,rocky reef,Kii xin,2021-04-28,48.82,-125.18,7.5,Haliotis kamtschatkana,12.5,1,0.01
-BMSC4,rocky reef,Kii xin,2023-05-12,48.82,-125.18,8.5,Haliotis kamtschatkana,5,6,0.06
-BMSC4,rocky reef,Kii xin,2023-05-12,48.82,-125.18,8.5,Haliotis kamtschatkana,7.5,4,0.04
-BMSC4,rocky reef,Kii xin,2023-05-12,48.82,-125.18,8.5,Haliotis kamtschatkana,10,2,0.02
-BMSC4,rocky reef,Kii xin,2023-05-12,48.82,-125.18,8.5,Haliotis kamtschatkana,2.5,4,0.04
-KCCA13,shallow kelp,Second Beach South,2023-06-07,48.82,-125.18,4.9,Haliotis kamtschatkana,5,5,0.05
-KCCA13,shallow kelp,Second Beach South,2023-06-07,48.82,-125.18,4.9,Haliotis kamtschatkana,7.5,7,0.07
-KCCA13,shallow kelp,Second Beach South,2023-06-07,48.82,-125.18,4.9,Haliotis kamtschatkana,10,5,0.05
-KCCA13,shallow kelp,Second Beach South,2023-06-07,48.82,-125.18,4.9,Haliotis kamtschatkana,2.5,3,0.03
-BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83,-125.15,6,Haliotis kamtschatkana,5,5,0.05
-BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83,-125.15,6,Haliotis kamtschatkana,10,6,0.06
-BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83,-125.15,6,Haliotis kamtschatkana,15,1,0.01
-BMSC9,rocky reef,Eagle Bay,2022-05-02,48.83,-125.15,6.5,Haliotis kamtschatkana,2.5,3,0.03
-BMSC9,rocky reef,Eagle Bay,2022-05-02,48.83,-125.15,6.5,Haliotis kamtschatkana,5,15,0.15
-BMSC9,rocky reef,Eagle Bay,2022-05-02,48.83,-125.15,6.5,Haliotis kamtschatkana,7.5,5,0.05
-BMSC9,rocky reef,Eagle Bay,2022-05-02,48.83,-125.15,6.5,Haliotis kamtschatkana,0,14,0.14
-BMSC9,rocky reef,Eagle Bay,2023-05-11,48.83,-125.15,6,Haliotis kamtschatkana,2.5,33,0.33
-BMSC5,rocky reef,Taylor Rock,2021-04-28,48.83,-125.2,6.5,Haliotis kamtschatkana,0,10,0.1
-BMSC5,rocky reef,Taylor Rock,2022-05-04,48.83,-125.2,6.2,Haliotis kamtschatkana,5,1,0.01
-BMSC5,rocky reef,Taylor Rock,2023-05-15,48.83,-125.2,8,Haliotis kamtschatkana,2.5,6,0.06
-BMSC5,rocky reef,Taylor Rock,2023-05-15,48.83,-125.2,8,Haliotis kamtschatkana,7.5,4,0.04
-BMSC5,rocky reef,Taylor Rock,2023-05-15,48.83,-125.2,8,Haliotis kamtschatkana,10,7,0.07
-BMSC5,rocky reef,Taylor Rock,2021-04-28,48.83,-125.2,6.5,Haliotis kamtschatkana,5,2,0.02
-BMSC1,rocky reef,Dodger Channel,2021-04-26,48.83,-125.2,6.5,Haliotis kamtschatkana,7.5,1,0.01
-BMSC1,rocky reef,Dodger Channel,2021-04-26,48.83,-125.2,6.5,Haliotis kamtschatkana,10,2,0.02
-BMSC1,rocky reef,Dodger Channel,2022-05-04,48.83,-125.2,4.7,Haliotis kamtschatkana,7.5,2,0.02
-BMSC5,rocky reef,Taylor Rock,2022-05-04,48.83,-125.2,6.2,Haliotis kamtschatkana,12.5,1,0.01
-BMSC5,rocky reef,Taylor Rock,2022-05-04,48.83,-125.2,6,Haliotis kamtschatkana,2.5,1,0.01
-BMSC1,rocky reef,Dodger Channel,2023-05-15,48.83,-125.2,5.5,Haliotis kamtschatkana,7.5,6,0.06
-BMSC1,rocky reef,Dodger Channel,2023-05-15,48.83,-125.2,5.5,Haliotis kamtschatkana,0,7,0.07
-BMSC20,rocky reef,Ed King East,2021-05-06,48.84,-125.21,7,Haliotis kamtschatkana,15,1,0.01
-BMSC20,rocky reef,Ed King East,2022-04-29,48.84,-125.21,6.5,Haliotis kamtschatkana,2.5,2,0.02
-BMSC20,rocky reef,Ed King East,2023-05-10,48.84,-125.21,6.5,Haliotis kamtschatkana,2.5,1,0.01
-BMSC1,rocky reef,Dodger Channel,2021-04-26,48.83,-125.2,5.5,Haliotis kamtschatkana,5,1,0.01
-BMSC1,rocky reef,Dodger Channel,2022-05-04,48.83,-125.2,4.7,Haliotis kamtschatkana,2.5,2,0.02
-BMSC1,rocky reef,Dodger Channel,2022-05-04,48.83,-125.2,5.5,Haliotis kamtschatkana,7.5,4,0.04
-BMSC1,rocky reef,Dodger Channel,2023-05-15,48.83,-125.2,8,Haliotis kamtschatkana,5,1,0.01
-BMSC5,rocky reef,Taylor Rock,2023-05-15,48.83,-125.2,5.5,Haliotis kamtschatkana,2.5,7,0.07
-BMSC5,rocky reef,Taylor Rock,2023-05-15,48.83,-125.2,5.5,Haliotis kamtschatkana,7.5,5,0.05
-BMSC1,rocky reef,Dodger Channel,2023-05-15,48.83,-125.2,5.5,Haliotis kamtschatkana,5,2,0.02
-BMSC1,rocky reef,Dodger Channel,2023-05-15,48.83,-125.2,5.5,Haliotis kamtschatkana,10,1,0.01
-BMSC1,rocky reef,Dodger Channel,2023-05-15,48.83,-125.2,5.5,Haliotis kamtschatkana,12.5,2,0.02
-BMSC20,rocky reef,Ed King East,2022-04-29,48.84,-125.21,6.5,Haliotis kamtschatkana,7.5,9,0.09
-BMSC20,rocky reef,Ed King East,2023-05-10,48.84,-125.21,6.5,Haliotis kamtschatkana,5,2,0.02
-BMSC20,rocky reef,Ed King East,2023-05-10,48.84,-125.21,6.5,Haliotis kamtschatkana,7.5,1,0.01
+BMSC4,rocky reef,Kii xin,2021-04-28,48.81511688,-125.1753311,7.5,Haliotis kamtschatkana,0,1,0.01
+BMSC4,rocky reef,Kii xin,2021-04-28,48.81511688,-125.1753311,7.5,Haliotis kamtschatkana,12.5,1,0.01
+BMSC4,rocky reef,Kii xin,2023-05-12,48.81511688,-125.1753311,8.5,Haliotis kamtschatkana,5,6,0.06
+BMSC4,rocky reef,Kii xin,2023-05-12,48.81511688,-125.1753311,8.5,Haliotis kamtschatkana,7.5,4,0.04
+BMSC4,rocky reef,Kii xin,2023-05-12,48.81511688,-125.1753311,8.5,Haliotis kamtschatkana,10,2,0.02
+BMSC4,rocky reef,Kii xin,2023-05-12,48.81511688,-125.1753311,8.5,Haliotis kamtschatkana,2.5,4,0.04
+KCCA13,shallow kelp,Second Beach South,2023-06-07,48.81508,-125.17585,4.9,Haliotis kamtschatkana,5,5,0.05
+KCCA13,shallow kelp,Second Beach South,2023-06-07,48.81508,-125.17585,4.9,Haliotis kamtschatkana,7.5,7,0.07
+KCCA13,shallow kelp,Second Beach South,2023-06-07,48.81508,-125.17585,4.9,Haliotis kamtschatkana,10,5,0.05
+KCCA13,shallow kelp,Second Beach South,2023-06-07,48.81508,-125.17585,4.9,Haliotis kamtschatkana,2.5,3,0.03
+BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83478928,-125.1470261,6,Haliotis kamtschatkana,5,5,0.05
+BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83478928,-125.1470261,6,Haliotis kamtschatkana,10,6,0.06
+BMSC9,rocky reef,Eagle Bay,2021-04-30,48.83478928,-125.1470261,6,Haliotis kamtschatkana,15,1,0.01
+BMSC9,rocky reef,Eagle Bay,2022-05-02,48.83478928,-125.1470261,6.5,Haliotis kamtschatkana,2.5,3,0.03
+BMSC9,rocky reef,Eagle Bay,2022-05-02,48.83478928,-125.1470261,6.5,Haliotis kamtschatkana,5,15,0.15
+BMSC9,rocky reef,Eagle Bay,2022-05-02,48.83478928,-125.1470261,6.5,Haliotis kamtschatkana,7.5,5,0.05
+BMSC9,rocky reef,Eagle Bay,2022-05-02,48.83478928,-125.1470261,6.5,Haliotis kamtschatkana,0,14,0.14
+BMSC9,rocky reef,Eagle Bay,2023-05-11,48.83478928,-125.1470261,6,Haliotis kamtschatkana,2.5,33,0.33
+BMSC5,rocky reef,Taylor Rock,2021-04-28,48.82733154,-125.1966019,6.5,Haliotis kamtschatkana,0,10,0.1
+BMSC5,rocky reef,Taylor Rock,2022-05-04,48.82733154,-125.1966019,6.2,Haliotis kamtschatkana,5,1,0.01
+BMSC5,rocky reef,Taylor Rock,2023-05-15,48.82733154,-125.1966019,8,Haliotis kamtschatkana,2.5,6,0.06
+BMSC5,rocky reef,Taylor Rock,2023-05-15,48.82733154,-125.1966019,8,Haliotis kamtschatkana,7.5,4,0.04
+BMSC5,rocky reef,Taylor Rock,2023-05-15,48.82733154,-125.1966019,8,Haliotis kamtschatkana,10,7,0.07
+BMSC5,rocky reef,Taylor Rock,2021-04-28,48.82733154,-125.1966019,6.5,Haliotis kamtschatkana,5,2,0.02
+BMSC1,rocky reef,Dodger Channel,2021-04-26,48.82894897,-125.1975708,6.5,Haliotis kamtschatkana,7.5,1,0.01
+BMSC1,rocky reef,Dodger Channel,2021-04-26,48.82894897,-125.1975708,6.5,Haliotis kamtschatkana,10,2,0.02
+BMSC1,rocky reef,Dodger Channel,2022-05-04,48.82894897,-125.1975708,4.7,Haliotis kamtschatkana,7.5,2,0.02
+BMSC5,rocky reef,Taylor Rock,2022-05-04,48.82733154,-125.1966019,6.2,Haliotis kamtschatkana,12.5,1,0.01
+BMSC5,rocky reef,Taylor Rock,2022-05-04,48.82733154,-125.1966019,6,Haliotis kamtschatkana,2.5,1,0.01
+BMSC1,rocky reef,Dodger Channel,2023-05-15,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,7.5,6,0.06
+BMSC1,rocky reef,Dodger Channel,2023-05-15,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,0,7,0.07
+BMSC20,rocky reef,Ed King East,2021-05-06,48.83566666,-125.214798,7,Haliotis kamtschatkana,15,1,0.01
+BMSC20,rocky reef,Ed King East,2022-04-29,48.83566666,-125.214798,6.5,Haliotis kamtschatkana,2.5,2,0.02
+BMSC20,rocky reef,Ed King East,2023-05-10,48.83566666,-125.214798,6.5,Haliotis kamtschatkana,2.5,1,0.01
+BMSC1,rocky reef,Dodger Channel,2021-04-26,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,5,1,0.01
+BMSC1,rocky reef,Dodger Channel,2022-05-04,48.82894897,-125.1975708,4.7,Haliotis kamtschatkana,2.5,2,0.02
+BMSC1,rocky reef,Dodger Channel,2022-05-04,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,7.5,4,0.04
+BMSC1,rocky reef,Dodger Channel,2023-05-15,48.82894897,-125.1975708,8,Haliotis kamtschatkana,5,1,0.01
+BMSC5,rocky reef,Taylor Rock,2023-05-15,48.82733154,-125.1966019,5.5,Haliotis kamtschatkana,2.5,7,0.07
+BMSC5,rocky reef,Taylor Rock,2023-05-15,48.82733154,-125.1966019,5.5,Haliotis kamtschatkana,7.5,5,0.05
+BMSC1,rocky reef,Dodger Channel,2023-05-15,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,5,2,0.02
+BMSC1,rocky reef,Dodger Channel,2023-05-15,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,10,1,0.01
+BMSC1,rocky reef,Dodger Channel,2023-05-15,48.82894897,-125.1975708,5.5,Haliotis kamtschatkana,12.5,2,0.02
+BMSC20,rocky reef,Ed King East,2022-04-29,48.83566666,-125.214798,6.5,Haliotis kamtschatkana,7.5,9,0.09
+BMSC20,rocky reef,Ed King East,2023-05-10,48.83566666,-125.214798,6.5,Haliotis kamtschatkana,5,2,0.02
+BMSC20,rocky reef,Ed King East,2023-05-10,48.83566666,-125.214798,6.5,Haliotis kamtschatkana,7.5,1,0.01
 BMSC33,rocky reef,Ed King East Inside,2023-06-06,48.84,-125.21,2,Haliotis kamtschatkana,5,21,0.21
-BMSC19,rocky reef,Ed King SW Pyramid,2022-04-29,48.83,-125.22,8,Haliotis kamtschatkana,10,2,0.02
-BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.83,-125.22,6.5,Haliotis kamtschatkana,5,9,0.09
-BMSC23,rocky reef,Aguilar Point,2022-05-06,48.84,-125.14,6.5,Haliotis kamtschatkana,2.5,12,0.12
-BMSC23,rocky reef,Aguilar Point,2022-05-06,48.84,-125.14,6.5,Haliotis kamtschatkana,5,9,0.09
-BMSC23,rocky reef,Aguilar Point,2023-05-11,48.84,-125.14,7,Haliotis kamtschatkana,2.5,20,0.2
-BMSC23,rocky reef,Aguilar Point,2023-05-11,48.84,-125.14,7,Haliotis kamtschatkana,5,16,0.16
-BMSC25,rocky reef,Goby Town,2023-05-18,48.84,-125.14,5.7,Haliotis kamtschatkana,0,13,0.13
-BMSC25,rocky reef,Goby Town,2023-05-18,48.84,-125.14,5.5,Haliotis kamtschatkana,5,3,0.03
-BMSC25,rocky reef,Goby Town,2023-05-18,48.84,-125.14,5.5,Haliotis kamtschatkana,7.5,17,0.17
-BMSC25,rocky reef,Goby Town,2023-05-18,48.84,-125.14,5.5,Haliotis kamtschatkana,10,19,0.19
-BMSC25,rocky reef,Goby Town,2023-05-18,48.84,-125.14,5.5,Haliotis kamtschatkana,12.5,14,0.14
-BMSC23,rocky reef,Aguilar Point,2023-05-11,48.84,-125.14,7,Haliotis kamtschatkana,7.5,9,0.09
-BMSC23,rocky reef,Aguilar Point,2023-05-11,48.84,-125.14,7,Haliotis kamtschatkana,10,1,0.01
-BMSC25,rocky reef,Goby Town,2023-05-18,48.84,-125.14,5.7,Haliotis kamtschatkana,2.5,4,0.04
-BMSC25,rocky reef,Goby Town,2023-05-18,48.84,-125.14,5.7,Haliotis kamtschatkana,5,7,0.07
-BMSC25,rocky reef,Goby Town,2023-05-18,48.84,-125.14,5.7,Haliotis kamtschatkana,7.5,10,0.1
-BMSC25,rocky reef,Goby Town,2023-05-18,48.84,-125.14,5.7,Haliotis kamtschatkana,10,2,0.02
-BMSC25,rocky reef,Goby Town,2023-05-18,48.84,-125.14,5.5,Haliotis kamtschatkana,15,1,0.01
-BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.83,-125.22,6.5,Haliotis kamtschatkana,2.5,1,0.01
-BMSC12,rocky reef,Wizard Island North,2022-05-03,48.86,-125.16,5,Haliotis kamtschatkana,10,5,0.05
-BMSC12,rocky reef,Wizard Island North,2023-05-16,48.86,-125.16,6.5,Haliotis kamtschatkana,5,8,0.08
-BMSC11,rocky reef,Wizard Island South,2023-05-16,48.86,-125.16,5.5,Haliotis kamtschatkana,10,5,0.05
-KCCA19,rocky reef,Wizard Island North Kelp,2023-06-08,48.86,-125.16,5.5,Haliotis kamtschatkana,5,3,0.03
-KCCA19,rocky reef,Wizard Island North Kelp,2023-06-08,48.86,-125.16,5.5,Haliotis kamtschatkana,7.5,1,0.01
-BMSC12,rocky reef,Wizard Island North,2021-05-03,48.86,-125.16,5.5,Haliotis kamtschatkana,7.5,3,0.03
-BMSC12,rocky reef,Wizard Island North,2021-05-03,48.86,-125.16,5.5,Haliotis kamtschatkana,15,2,0.02
-BMSC11,rocky reef,Wizard Island South,2022-05-03,48.86,-125.16,4,Haliotis kamtschatkana,10,1,0.01
-BMSC12,rocky reef,Wizard Island North,2022-05-03,48.86,-125.16,5,Haliotis kamtschatkana,5,3,0.03
-BMSC12,rocky reef,Wizard Island North,2022-05-03,48.86,-125.16,5,Haliotis kamtschatkana,12.5,1,0.01
-BMSC12,rocky reef,Wizard Island North,2023-05-16,48.86,-125.16,9,Haliotis kamtschatkana,5,2,0.02
-BMSC12,rocky reef,Wizard Island North,2023-05-16,48.86,-125.16,9,Haliotis kamtschatkana,0,5,0.05
-BMSC12,rocky reef,Wizard Island North,2023-05-16,48.86,-125.16,6.5,Haliotis kamtschatkana,2.5,4,0.04
-BMSC11,rocky reef,Wizard Island South,2023-05-16,48.86,-125.16,7.5,Haliotis kamtschatkana,2.5,1,0.01
-BMSC11,rocky reef,Wizard Island South,2023-05-16,48.86,-125.16,7.5,Haliotis kamtschatkana,5,6,0.06
-BMSC11,rocky reef,Wizard Island South,2023-05-16,48.86,-125.16,7.5,Haliotis kamtschatkana,0,11,0.11
-BMSC11,rocky reef,Wizard Island South,2023-05-16,48.86,-125.16,5.5,Haliotis kamtschatkana,5,3,0.03
-BMSC11,rocky reef,Wizard Island South,2023-05-16,48.86,-125.16,5.5,Haliotis kamtschatkana,7.5,6,0.06
-BMSC11,rocky reef,Wizard Island South,2023-05-16,48.86,-125.16,5.5,Haliotis kamtschatkana,12.5,4,0.04
-KCCA19,rocky reef,Wizard Island North Kelp,2023-06-08,48.86,-125.16,5.5,Haliotis kamtschatkana,2.5,4,0.04
+BMSC19,rocky reef,Ed King SW Pyramid,2022-04-29,48.82860184,-125.2212982,8,Haliotis kamtschatkana,10,2,0.02
+BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.82860184,-125.2212982,6.5,Haliotis kamtschatkana,5,9,0.09
+BMSC23,rocky reef,Aguilar Point,2022-05-06,48.837589,-125.144145,6.5,Haliotis kamtschatkana,2.5,12,0.12
+BMSC23,rocky reef,Aguilar Point,2022-05-06,48.837589,-125.144145,6.5,Haliotis kamtschatkana,5,9,0.09
+BMSC23,rocky reef,Aguilar Point,2023-05-11,48.837589,-125.144145,7,Haliotis kamtschatkana,2.5,20,0.2
+BMSC23,rocky reef,Aguilar Point,2023-05-11,48.837589,-125.144145,7,Haliotis kamtschatkana,5,16,0.16
+BMSC25,rocky reef,Goby Town,2023-05-18,48.838595,-125.135015,5.7,Haliotis kamtschatkana,0,13,0.13
+BMSC25,rocky reef,Goby Town,2023-05-18,48.838595,-125.135015,5.5,Haliotis kamtschatkana,5,3,0.03
+BMSC25,rocky reef,Goby Town,2023-05-18,48.838595,-125.135015,5.5,Haliotis kamtschatkana,7.5,17,0.17
+BMSC25,rocky reef,Goby Town,2023-05-18,48.838595,-125.135015,5.5,Haliotis kamtschatkana,10,19,0.19
+BMSC25,rocky reef,Goby Town,2023-05-18,48.838595,-125.135015,5.5,Haliotis kamtschatkana,12.5,14,0.14
+BMSC23,rocky reef,Aguilar Point,2023-05-11,48.837589,-125.144145,7,Haliotis kamtschatkana,7.5,9,0.09
+BMSC23,rocky reef,Aguilar Point,2023-05-11,48.837589,-125.144145,7,Haliotis kamtschatkana,10,1,0.01
+BMSC25,rocky reef,Goby Town,2023-05-18,48.838595,-125.135015,5.7,Haliotis kamtschatkana,2.5,4,0.04
+BMSC25,rocky reef,Goby Town,2023-05-18,48.838595,-125.135015,5.7,Haliotis kamtschatkana,5,7,0.07
+BMSC25,rocky reef,Goby Town,2023-05-18,48.838595,-125.135015,5.7,Haliotis kamtschatkana,7.5,10,0.1
+BMSC25,rocky reef,Goby Town,2023-05-18,48.838595,-125.135015,5.7,Haliotis kamtschatkana,10,2,0.02
+BMSC25,rocky reef,Goby Town,2023-05-18,48.838595,-125.135015,5.5,Haliotis kamtschatkana,15,1,0.01
+BMSC19,rocky reef,Ed King SW Pyramid,2023-05-10,48.82860184,-125.2212982,6.5,Haliotis kamtschatkana,2.5,1,0.01
+BMSC12,rocky reef,Wizard Island North,2022-05-03,48.858284,-125.1609192,5,Haliotis kamtschatkana,10,5,0.05
+BMSC12,rocky reef,Wizard Island North,2023-05-16,48.858284,-125.1609192,6.5,Haliotis kamtschatkana,5,8,0.08
+BMSC11,rocky reef,Wizard Island South,2023-05-16,48.85746765,-125.1582336,5.5,Haliotis kamtschatkana,10,5,0.05
+KCCA19,rocky reef,Wizard Island North Kelp,2023-06-08,48.85916,-125.15908,5.5,Haliotis kamtschatkana,5,3,0.03
+KCCA19,rocky reef,Wizard Island North Kelp,2023-06-08,48.85916,-125.15908,5.5,Haliotis kamtschatkana,7.5,1,0.01
+BMSC12,rocky reef,Wizard Island North,2021-05-03,48.858284,-125.1609192,5.5,Haliotis kamtschatkana,7.5,3,0.03
+BMSC12,rocky reef,Wizard Island North,2021-05-03,48.858284,-125.1609192,5.5,Haliotis kamtschatkana,15,2,0.02
+BMSC11,rocky reef,Wizard Island South,2022-05-03,48.85746765,-125.1582336,4,Haliotis kamtschatkana,10,1,0.01
+BMSC12,rocky reef,Wizard Island North,2022-05-03,48.858284,-125.1609192,5,Haliotis kamtschatkana,5,3,0.03
+BMSC12,rocky reef,Wizard Island North,2022-05-03,48.858284,-125.1609192,5,Haliotis kamtschatkana,12.5,1,0.01
+BMSC12,rocky reef,Wizard Island North,2023-05-16,48.858284,-125.1609192,9,Haliotis kamtschatkana,5,2,0.02
+BMSC12,rocky reef,Wizard Island North,2023-05-16,48.858284,-125.1609192,9,Haliotis kamtschatkana,0,5,0.05
+BMSC12,rocky reef,Wizard Island North,2023-05-16,48.858284,-125.1609192,6.5,Haliotis kamtschatkana,2.5,4,0.04
+BMSC11,rocky reef,Wizard Island South,2023-05-16,48.85746765,-125.1582336,7.5,Haliotis kamtschatkana,2.5,1,0.01
+BMSC11,rocky reef,Wizard Island South,2023-05-16,48.85746765,-125.1582336,7.5,Haliotis kamtschatkana,5,6,0.06
+BMSC11,rocky reef,Wizard Island South,2023-05-16,48.85746765,-125.1582336,7.5,Haliotis kamtschatkana,0,11,0.11
+BMSC11,rocky reef,Wizard Island South,2023-05-16,48.85746765,-125.1582336,5.5,Haliotis kamtschatkana,5,3,0.03
+BMSC11,rocky reef,Wizard Island South,2023-05-16,48.85746765,-125.1582336,5.5,Haliotis kamtschatkana,7.5,6,0.06
+BMSC11,rocky reef,Wizard Island South,2023-05-16,48.85746765,-125.1582336,5.5,Haliotis kamtschatkana,12.5,4,0.04
+KCCA19,rocky reef,Wizard Island North Kelp,2023-06-08,48.85916,-125.15908,5.5,Haliotis kamtschatkana,2.5,4,0.04
 BMSC28,rocky reef,Swiss Boy,2023-05-18,48.92,-125.13,11,Haliotis kamtschatkana,2.5,25,0.25
 BMSC28,rocky reef,Swiss Boy,2023-05-18,48.92,-125.13,11,Haliotis kamtschatkana,5,10,0.1
 BMSC28,rocky reef,Swiss Boy,2023-05-18,48.92,-125.13,11,Haliotis kamtschatkana,7.5,2,0.02
@@ -247,53 +247,53 @@ BMSC7,rocky reef,Baeria Rocks North Island Southside,2021-04-29,48.95,-125.15,5,
 BMSC7,rocky reef,Baeria Rocks North Island Southside,2021-04-29,48.95,-125.15,5,Haliotis kamtschatkana,12.5,5,0.05
 BMSC7,rocky reef,Baeria Rocks North Island Southside,2021-04-29,48.95,-125.15,5,Haliotis kamtschatkana,15,1,0.01
 BMSC7,rocky reef,Baeria Rocks North Island Southside,2021-04-29,48.95,-125.15,5,Haliotis kamtschatkana,25,9,0.09
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2021-04-29,48.96,-125.15,9,Haliotis kamtschatkana,0,26,0.26
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2021-04-29,48.96,-125.15,9,Haliotis kamtschatkana,2.5,3,0.03
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2022-04-28,48.96,-125.15,6,Haliotis kamtschatkana,5,11,0.11
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.96,-125.15,7.5,Haliotis kamtschatkana,2.5,10,0.1
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.96,-125.15,7.5,Haliotis kamtschatkana,5,3,0.03
-BMSC16,rocky reef,Faber Islets,2022-04-27,48.89,-125.3,5.5,Haliotis kamtschatkana,10,2,0.02
-BMSC26,rocky reef,Hosie South,2023-05-19,48.91,-125.04,9.5,Haliotis kamtschatkana,10,1,0.01
-BMSC26,rocky reef,Hosie South,2023-05-19,48.91,-125.04,10,Haliotis kamtschatkana,7.5,1,0.01
-BMSC27,rocky reef,San Jose North Island,2023-05-19,48.9,-125.06,7,Haliotis kamtschatkana,7.5,4,0.04
-BMSC27,rocky reef,San Jose North Island,2023-05-19,48.9,-125.06,7,Haliotis kamtschatkana,10,5,0.05
-BMSC27,rocky reef,San Jose North Island,2023-05-19,48.9,-125.06,7,Haliotis kamtschatkana,2.5,1,0.01
-BMSC27,rocky reef,San Jose North Island,2023-05-19,48.9,-125.06,9,Haliotis kamtschatkana,5,1,0.01
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2021-04-29,48.95508194,-125.1533737,9,Haliotis kamtschatkana,0,26,0.26
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2021-04-29,48.95508194,-125.1533737,9,Haliotis kamtschatkana,2.5,3,0.03
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2022-04-28,48.95508194,-125.1533737,6,Haliotis kamtschatkana,5,11,0.11
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.95508194,-125.1533737,7.5,Haliotis kamtschatkana,2.5,10,0.1
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.95508194,-125.1533737,7.5,Haliotis kamtschatkana,5,3,0.03
+BMSC16,rocky reef,Faber Islets,2022-04-27,48.89070129,-125.300499,5.5,Haliotis kamtschatkana,10,2,0.02
+BMSC26,rocky reef,Hosie South,2023-05-19,48.9071,-125.037017,9.5,Haliotis kamtschatkana,10,1,0.01
+BMSC26,rocky reef,Hosie South,2023-05-19,48.9071,-125.037017,10,Haliotis kamtschatkana,7.5,1,0.01
+BMSC27,rocky reef,San Jose North Island,2023-05-19,48.901183,-125.060433,7,Haliotis kamtschatkana,7.5,4,0.04
+BMSC27,rocky reef,San Jose North Island,2023-05-19,48.901183,-125.060433,7,Haliotis kamtschatkana,10,5,0.05
+BMSC27,rocky reef,San Jose North Island,2023-05-19,48.901183,-125.060433,7,Haliotis kamtschatkana,2.5,1,0.01
+BMSC27,rocky reef,San Jose North Island,2023-05-19,48.901183,-125.060433,9,Haliotis kamtschatkana,5,1,0.01
 BMKC2,deep kelp,Tzartus 116 R,2023-06-10,48.9,-125.08,3,Haliotis kamtschatkana,10,1,0.01
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2021-04-29,48.96,-125.15,9,Haliotis kamtschatkana,7.5,7,0.07
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2022-04-28,48.96,-125.15,6,Haliotis kamtschatkana,7.5,2,0.02
-BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.96,-125.15,9,Haliotis kamtschatkana,2.5,7,0.07
-BMSC3,rocky reef,Ohiat,2021-04-27,48.86,-125.18,5.5,Haliotis kamtschatkana,5,7,0.07
-BMSC3,rocky reef,Ohiat,2023-05-12,48.86,-125.18,7.5,Haliotis kamtschatkana,0,32,0.32
-BMSC3,rocky reef,Ohiat,2023-05-12,48.86,-125.18,7.5,Haliotis kamtschatkana,7.5,1,0.01
-BMSC3,rocky reef,Ohiat,2021-04-27,48.86,-125.18,5.5,Haliotis kamtschatkana,12.5,3,0.03
-BMSC14,rocky reef,Effingham Archipelago,2021-05-04,48.88,-125.3,6,Haliotis kamtschatkana,2.5,2,0.02
-BMSC14,rocky reef,Effingham Archipelago,2021-05-04,48.88,-125.3,6,Haliotis kamtschatkana,5,9,0.09
-BMSC14,rocky reef,Effingham Archipelago,2021-05-04,48.88,-125.3,6,Haliotis kamtschatkana,10,1,0.01
-BMSC14,rocky reef,Effingham Archipelago,2022-04-26,48.88,-125.3,7,Haliotis kamtschatkana,2.5,11,0.11
-BMSC14,rocky reef,Effingham Archipelago,2022-04-26,48.88,-125.3,7,Haliotis kamtschatkana,5,12,0.12
-BMSC11,rocky reef,Wizard Island South,2023-05-16,48.86,-125.16,5.5,Haliotis kamtschatkana,2.5,1,0.01
-BMSC11,rocky reef,Wizard Island South,2022-05-03,48.86,-125.16,4,Haliotis kamtschatkana,5,1,0.01
-BMSC11,rocky reef,Wizard Island South,2023-05-16,48.86,-125.16,5.5,Haliotis kamtschatkana,15,3,0.03
-BMSC12,rocky reef,Wizard Island North,2023-05-16,48.86,-125.16,6.5,Haliotis kamtschatkana,12.5,2,0.02
-BMSC11,rocky reef,Wizard Island South,2023-05-16,48.86,-125.16,7.5,Haliotis kamtschatkana,7.5,1,0.01
-BMSC13,rocky reef,Effingham West,2021-05-04,48.87,-125.31,4.8,Haliotis kamtschatkana,5,1,0.01
-BMSC13,rocky reef,Effingham West,2021-05-04,48.87,-125.31,4.8,Haliotis kamtschatkana,7.5,1,0.01
-BMSC18,rocky reef,Eussen Rock,2021-05-05,48.91,-125.27,7.5,Haliotis kamtschatkana,2.5,2,0.02
-BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91,-125.27,7.5,Haliotis kamtschatkana,5,11,0.11
-BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91,-125.27,7.5,Haliotis kamtschatkana,7.5,5,0.05
-BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91,-125.27,7.5,Haliotis kamtschatkana,10,4,0.04
-BMSC14,rocky reef,Effingham Archipelago,2021-05-04,48.88,-125.3,6,Haliotis kamtschatkana,7.5,1,0.01
-BMSC14,rocky reef,Effingham Archipelago,2022-04-26,48.88,-125.3,7,Haliotis kamtschatkana,7.5,2,0.02
-BMSC17,rocky reef,Wouwer Channel,2022-04-27,48.87,-125.36,5,Haliotis kamtschatkana,7.5,2,0.02
-BMSC13,rocky reef,Effingham West,2021-05-04,48.87,-125.31,4.8,Haliotis kamtschatkana,2.5,2,0.02
-BMSC10,rocky reef,Ross Islets Slug Island,2021-04-30,48.87,-125.16,4,Haliotis kamtschatkana,7.5,1,0.01
-BMSC10,rocky reef,Ross Islets Slug Island,2022-05-05,48.87,-125.16,5,Haliotis kamtschatkana,2.5,2,0.02
-BMSC10,rocky reef,Ross Islets Slug Island,2023-06-14,48.87,-125.16,2.7,Haliotis kamtschatkana,10,11,0.11
-BMSC10,rocky reef,Ross Islets Slug Island,2023-05-09,48.87,-125.16,4,Haliotis kamtschatkana,10,2,0.02
-KCCA11,shallow kelp,Ross Islets 2,2023-06-12,48.87,-125.16,3.5,Haliotis kamtschatkana,7.5,2,0.02
-BMSC10,rocky reef,Ross Islets Slug Island,2023-06-14,48.87,-125.16,2.7,Haliotis kamtschatkana,5,9,0.09
-BMSC10,rocky reef,Ross Islets Slug Island,2023-06-14,48.87,-125.16,2.7,Haliotis kamtschatkana,2.5,8,0.08
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2021-04-29,48.95508194,-125.1533737,9,Haliotis kamtschatkana,7.5,7,0.07
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2022-04-28,48.95508194,-125.1533737,6,Haliotis kamtschatkana,7.5,2,0.02
+BMSC8,rocky reef,Baeria Rocks North Island Northside,2023-05-17,48.95508194,-125.1533737,9,Haliotis kamtschatkana,2.5,7,0.07
+BMSC3,rocky reef,Ohiat,2021-04-27,48.85558319,-125.1837997,5.5,Haliotis kamtschatkana,5,7,0.07
+BMSC3,rocky reef,Ohiat,2023-05-12,48.85558319,-125.1837997,7.5,Haliotis kamtschatkana,0,32,0.32
+BMSC3,rocky reef,Ohiat,2023-05-12,48.85558319,-125.1837997,7.5,Haliotis kamtschatkana,7.5,1,0.01
+BMSC3,rocky reef,Ohiat,2021-04-27,48.85558319,-125.1837997,5.5,Haliotis kamtschatkana,12.5,3,0.03
+BMSC14,rocky reef,Effingham Archipelago,2021-05-04,48.87908173,-125.2974014,6,Haliotis kamtschatkana,2.5,2,0.02
+BMSC14,rocky reef,Effingham Archipelago,2021-05-04,48.87908173,-125.2974014,6,Haliotis kamtschatkana,5,9,0.09
+BMSC14,rocky reef,Effingham Archipelago,2021-05-04,48.87908173,-125.2974014,6,Haliotis kamtschatkana,10,1,0.01
+BMSC14,rocky reef,Effingham Archipelago,2022-04-26,48.87908173,-125.2974014,7,Haliotis kamtschatkana,2.5,11,0.11
+BMSC14,rocky reef,Effingham Archipelago,2022-04-26,48.87908173,-125.2974014,7,Haliotis kamtschatkana,5,12,0.12
+BMSC11,rocky reef,Wizard Island South,2023-05-16,48.85746765,-125.1582336,5.5,Haliotis kamtschatkana,2.5,1,0.01
+BMSC11,rocky reef,Wizard Island South,2022-05-03,48.85746765,-125.1582336,4,Haliotis kamtschatkana,5,1,0.01
+BMSC11,rocky reef,Wizard Island South,2023-05-16,48.85746765,-125.1582336,5.5,Haliotis kamtschatkana,15,3,0.03
+BMSC12,rocky reef,Wizard Island North,2023-05-16,48.858284,-125.1609192,6.5,Haliotis kamtschatkana,12.5,2,0.02
+BMSC11,rocky reef,Wizard Island South,2023-05-16,48.85746765,-125.1582336,7.5,Haliotis kamtschatkana,7.5,1,0.01
+BMSC13,rocky reef,Effingham West,2021-05-04,48.8650322,-125.3137207,4.8,Haliotis kamtschatkana,5,1,0.01
+BMSC13,rocky reef,Effingham West,2021-05-04,48.8650322,-125.3137207,4.8,Haliotis kamtschatkana,7.5,1,0.01
+BMSC18,rocky reef,Eussen Rock,2021-05-05,48.91161728,-125.2670364,7.5,Haliotis kamtschatkana,2.5,2,0.02
+BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91161728,-125.2670364,7.5,Haliotis kamtschatkana,5,11,0.11
+BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91161728,-125.2670364,7.5,Haliotis kamtschatkana,7.5,5,0.05
+BMSC18,rocky reef,Eussen Rock,2022-04-27,48.91161728,-125.2670364,7.5,Haliotis kamtschatkana,10,4,0.04
+BMSC14,rocky reef,Effingham Archipelago,2021-05-04,48.87908173,-125.2974014,6,Haliotis kamtschatkana,7.5,1,0.01
+BMSC14,rocky reef,Effingham Archipelago,2022-04-26,48.87908173,-125.2974014,7,Haliotis kamtschatkana,7.5,2,0.02
+BMSC17,rocky reef,Wouwer Channel,2022-04-27,48.86548233,-125.3614807,5,Haliotis kamtschatkana,7.5,2,0.02
+BMSC13,rocky reef,Effingham West,2021-05-04,48.8650322,-125.3137207,4.8,Haliotis kamtschatkana,2.5,2,0.02
+BMSC10,rocky reef,Ross Islets Slug Island,2021-04-30,48.87051773,-125.160347,4,Haliotis kamtschatkana,7.5,1,0.01
+BMSC10,rocky reef,Ross Islets Slug Island,2022-05-05,48.87051773,-125.160347,5,Haliotis kamtschatkana,2.5,2,0.02
+BMSC10,rocky reef,Ross Islets Slug Island,2023-06-14,48.87051773,-125.160347,2.7,Haliotis kamtschatkana,10,11,0.11
+BMSC10,rocky reef,Ross Islets Slug Island,2023-05-09,48.87051773,-125.160347,4,Haliotis kamtschatkana,10,2,0.02
+KCCA11,shallow kelp,Ross Islets 2,2023-06-12,48.87229,-125.1627,3.5,Haliotis kamtschatkana,7.5,2,0.02
+BMSC10,rocky reef,Ross Islets Slug Island,2023-06-14,48.87051773,-125.160347,2.7,Haliotis kamtschatkana,5,9,0.09
+BMSC10,rocky reef,Ross Islets Slug Island,2023-06-14,48.87051773,-125.160347,2.7,Haliotis kamtschatkana,2.5,8,0.08
 BMSC8,rocky reef,Baeria Rocks North Island Northside,2024-04-22,48.95508194,-125.1533737,8.5,Haliotis kamtschatkana,2.5,7,0.07
 BMSC8,rocky reef,Baeria Rocks North Island Northside,2024-04-22,48.95508194,-125.1533737,8.5,Haliotis kamtschatkana,5,23,0.23
 BMSC8,rocky reef,Baeria Rocks North Island Northside,2024-04-22,48.95508194,-125.1533737,8.5,Haliotis kamtschatkana,7.5,15,0.15
