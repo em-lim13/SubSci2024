@@ -27,13 +27,9 @@ library(renv)
 # make sure packages are correct
 renv::restore() # this should make sure your packages are all consistent with this project, if it asks if you want to update the following packages, click yes
 
-# tweak a few packages
-# renv::install("isoband@0.2.7")
-# renv::install("fs@1.6.4")
-
-renv::snapshot()
-
 # Manipulate data
+library(readr)
+library(tidyr)
 library(dplyr) # for general data wrangling
 library(lubridate) # for looking at dates
 
@@ -48,7 +44,7 @@ library(ggeffects) # for extracting predictions and running post hoc tests
 library(ggplot2) # Plotting data
 library(patchwork) # Arrange multiple plots together
 library(visreg) # plot model predictions
-
+library(viridisLite)
 
 # Load data ----
 
