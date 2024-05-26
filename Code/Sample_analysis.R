@@ -27,6 +27,10 @@ library(renv)
 # make sure packages are correct
 renv::restore() # this should make sure your packages are all consistent with this project, if it asks if you want to update the following packages, click yes
 
+#renv::install("isoband@0.2.7")
+
+renv::snapshot()
+
 # Manipulate data
 library(tidyverse) # for general data wrangling and plotting
 
