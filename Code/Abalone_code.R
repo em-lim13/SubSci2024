@@ -34,7 +34,7 @@ abalone <- read_csv("Data/abalone_RLS.csv")
 
 # Where are abalone? -----
 
-# this gives you a dataframe of the coordinates of each site and an average abalone density at each of them in case anyone wants to map this
+# this gives you a dataframe of the coordinates of each site and an average abalone density at each of them in case anyone wants to map this. careful bc some sites had multiple transects, some deep and some shallow and this will just average across those
 aba_coords <- abalone %>%
   group_by(site_code) %>%
   mutate(mean_density = mean(density),
