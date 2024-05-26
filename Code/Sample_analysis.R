@@ -100,7 +100,8 @@ summary(mod_cu)
 # we see no effect of sea cucumber treatment, but a positive effect of depth. Deeper cages had higher concentrations of ammonium
 
 # visualize the model output
-visreg(mod_cu)
+visreg(mod_cu, "cukes") # look at cuke variable
+visreg(mod_cu, "depth_center") # look at depth variable
 
 # Crab stats ----
 # this model is a bit more fancy, we're using a gamma distribution instead of a normal distribution and we've included a random for the week, because this experiment was run twice; once in week 1, and once in week 2
