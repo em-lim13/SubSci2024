@@ -1,7 +1,10 @@
 # Functions 
 
 # load packages
-library(tidyverse)
+library(readr)
+library(tidyr)
+library(dplyr)
+library(stringr)
 
 # Clean rls data! -----
 mr_scrubby <- function(filepath) {
