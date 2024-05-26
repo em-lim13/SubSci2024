@@ -3,8 +3,12 @@
 # May 2024
 
 # When you first open this, R should ask you to install a list of packages. 
-# Please click yes!
-# Renv is a package manager, and will make sure you have the same versions of packages that I'm using!
+# Please click no!
+
+# Renv is a package manager, and will make sure you have the same versions of packages that I'm using
+# run this line instead:
+renv::restore()
+# This should make sure your packages are all consistent with this project, if it asks if you want to update the following packages, click yes
 # Don't worry, this won't impact your other projects or R scripts. Renv will keep all the packages contained to this project
 # The download will take a few minutes, just be patient and go look at the ocean for a while while you wait
 
@@ -24,8 +28,7 @@
 # Package management
 # Renv records snapshots of all the packages currently used in your repository and the versions you're using
 library(renv) 
-# make sure packages are correct
-renv::restore() # this should make sure your packages are all consistent with this project, if it asks if you want to update the following packages, click yes
+
 
 # Manipulate data
 library(readr)
