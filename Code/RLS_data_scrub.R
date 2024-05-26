@@ -38,7 +38,7 @@ rls <- rbind(rls2021_2023, rls2024, rls_kelp) %>%
   group_by(site_code, survey_date, depth, method, species_name, size_class) %>%
   mutate(transect_total = sum(total)) %>% 
   ungroup() %>%
-  select(-c(block, total)) %>% # remove block and the old total
+  select(-c(block, method, total)) %>% # remove block and the old total
   unique() %>% # only keep one row per species per size per survey
   separate(site_code, 
            into = c("survey_type", NA), 
