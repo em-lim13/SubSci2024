@@ -28,13 +28,14 @@ library(renv)
 renv::restore() # this should make sure your packages are all consistent with this project, if it asks if you want to update the following packages, click yes
 
 # tweak a few packages
-renv::install("isoband@0.2.7")
-renv::install("fs@1.6.4")
+# renv::install("isoband@0.2.7")
+# renv::install("fs@1.6.4")
 
 renv::snapshot()
 
 # Manipulate data
-library(tidyverse) # for general data wrangling and plotting
+library(dplyr) # for general data wrangling
+library(lubridate) # for looking at dates
 
 # Analysis
 # Loading TMB and glmmTMB will give you a warning. Just ignore this, the more updated version of Matrix and TMB don't run well on older computers so we're using these versions to avoid half the class being unable to run code
