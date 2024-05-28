@@ -11,6 +11,7 @@ library(stringr)
 library(ggplot2) # Graphing package
 library(visreg)
 library(glmmTMB) # swiss army knife of modelling
+library(DHARMa)
 
 # Load data ----
 cukes <- read_csv("Data/2024_05_27_cuke_rugosity.csv") %>%
@@ -43,9 +44,8 @@ simple_model <- glmmTMB(cukes ~ rugosity, data = cukes)
 summary(simple_model)
 visreg(simple_model)
 
-par(mfrow = c(2,2)) 
-plot(simple_model)
-dev.off()
+plot(simulateResiduals(simple_model))
+
 
 # Try including depth and a random effect of observer
 mixed_model <-glmmTMB(cukes ~ rugosity * depth_m + (1|pair), data = cukes)
