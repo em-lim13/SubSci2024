@@ -107,9 +107,9 @@
     },
     "TMB": {
       "Package": "TMB",
-      "Version": "1.9.1",
+      "Version": "1.9.11",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "Matrix",
         "R",
@@ -119,7 +119,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "99cfaf7c7447b6848ff204d22783897c"
+      "Hash": "14d82c02c5dc0330a0f3f3d717d92a19"
     },
     "ape": {
       "Package": "ape",
@@ -585,9 +585,9 @@
     },
     "glmmTMB": {
       "Package": "glmmTMB",
-      "Version": "1.1.7",
+      "Version": "1.1.9",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "Matrix",
         "R",
@@ -595,10 +595,11 @@
         "TMB",
         "lme4",
         "methods",
+        "mgcv",
         "nlme",
         "numDeriv"
       ],
-      "Hash": "1f05010509ced5b0f1a55cc46a67b1ef"
+      "Hash": "1d08bfb9b7130b67a81e4783a49da757"
     },
     "glue": {
       "Package": "glue",
