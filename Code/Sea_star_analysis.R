@@ -86,4 +86,15 @@ sun_star_mod <- glmmTMB(density ~ species*year,
                         family = tweedie,
                     data = sun_stars)
 summary(sun_star_mod)
-plot(simulateResiduals(sun_star_mod)) # ooof
+plot(simulateResiduals(sun_star_mod))
+
+
+# Dot whisker example
+echino2 <- echino %>%
+  filter(species != "red urchin")
+
+ggplot(echino2, aes(x = density, y = species)) +
+  geom_jitter(aes(colour = as.factor(year))) +
+  stat_summary(fun = "mean", geom = "point", size = 5, mapping = aes(group = species)) +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2, linewidth = 1.5, mapping = aes(group = species)) +
+  labs(x = "Density", y = "Species", colour = "Year")
