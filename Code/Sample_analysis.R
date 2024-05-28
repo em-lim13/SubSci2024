@@ -37,8 +37,6 @@ library(dplyr) # for general data wrangling
 library(lubridate) # for looking at dates
 
 # Analysis
-# Loading TMB and glmmTMB will give you a warning. Just ignore this, the more updated version of Matrix and TMB don't run well on older computers so we're using these versions to avoid half the class being unable to run code
-library(TMB) # needed for glmmTMB
 library(glmmTMB) # The swiss army knife of modeling packages
 library(DHARMa) # inspect model residuals/check assumptions
 library(ggeffects) # for extracting predictions and running post hoc tests
