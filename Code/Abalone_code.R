@@ -16,7 +16,6 @@ library(tidyr)
 library(dplyr) # for general data wrangling
 library(lubridate) # for looking at dates
 
-library(TMB) # needed for glmmTMB
 library(glmmTMB) # The swiss army knife of modeling packages
 library(DHARMa) # inspect model residuals/check assumptions
 library(ggeffects) # for extracting predictions and running post hoc tests
