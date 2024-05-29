@@ -98,3 +98,4 @@ ggplot(echino2, aes(x = density, y = species)) +
   stat_summary(fun = "mean", geom = "point", size = 5, mapping = aes(group = species)) +
   stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2, linewidth = 1.5, mapping = aes(group = species)) +
   labs(x = "Density", y = "Species", colour = "Year")
+

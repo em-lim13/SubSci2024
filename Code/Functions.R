@@ -4,7 +4,10 @@
 library(readr)
 library(tidyr)
 library(dplyr)
+library(stringi)
 library(stringr)
+library(tidyverse)
+
 
 # Clean rls data! -----
 mr_scrubby <- function(filepath) {
