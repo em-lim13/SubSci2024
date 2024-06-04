@@ -25,8 +25,8 @@ library(patchwork) # Arrange multiple plots together
 library(visreg) # plot model predictions
 library(viridisLite) # colour palettes
 
-library(ggspatial)
-library(sf)
+# library(ggspatial)
+# library(sf)
 
 # source file where my functions live
 source("Code/Functions.R")
@@ -51,48 +51,103 @@ aba_coords <- abalone %>%
   unique() 
   
 
-write_csv(aba_coords, "Data/abalone_coordinates.csv")
+# write_csv(aba_coords, "Data/abalone_coordinates.csv")
 
 
-# Mapping -----
-# load map
+# Load student data -------
 
-a_rank <- aba_coords %>%
-  filter(site_name != "Baeria Rocks North Island Southside") %>%
-  filter(site_name != "Eussen Rock") %>%
-  filter(site_name != "Effingham Archipelago") %>%
-  filter(site_name != "Baeria Rocks North Island Northside") %>%
-  filter(site_name != "Faber Islets") %>%
-  filter(site_name != "Baeria Rocks South Island") %>%
-  filter(site_name != "Effingham West") %>%
-  arrange(desc(mean_density)) %>%
-  head(12)
+data <- read_csv("Data/abalone_prelim2.csv") %>%
+  rename(`2.5` = `<2.5cm`,
+         `5` = `2.5-5.0cm`,
+         `7.5` = `5.0-7.5cm`,
+         `10` = `7.5-10.0cm`,
+         `12.5` = `10.0-12.5cm`,
+         `15` = `12.5-15.0cm`,
+         `NA` = unsized) %>%
+  mutate(buddy_pair = ifelse(buddy_pair == "GS_VK", "VK_GS", buddy_pair),
+         method = case_when(
+           survey_type == "quadrat" & survey_direction == "parallel" ~ "QPar",
+           survey_type == "belt" & survey_direction == "parallel" ~ "BPar",
+           survey_type == "quadrat" & survey_direction == "perpendicular" ~ "QPerp",
+           survey_type == "belt" & survey_direction == "perpendicular" ~ "BPerp"))
+
+long_data <- data %>%
+  pivot_longer( cols = `2.5`:`NA`, names_to = "size_class", values_to = "total") %>%
+  drop_na(total) %>%
+  filter(total > 0) %>%
+  mutate(size_class = as.numeric(size_class))
+
+belt1 <- data %>%
+  filter(survey_type == "belt") %>%
+  filter(survey_complete == "yes") %>%
+  rowwise() %>% 
+  mutate(total = sum(c_across(`2.5`:`NA`), na.rm = T),
+         density = total/transect_length_m) %>%
+  ungroup() 
+
+quad1 <- data %>%
+  filter(survey_type == "quadrat") %>%
+  filter(survey_complete == "yes") %>%
+  rowwise() %>% 
+  mutate(total = sum(c_across(`2.5`:`NA`), na.rm = T)) %>%
+  ungroup() %>%
+  group_by(site, surveyor, survey_direction, survey_type) %>%
+  mutate(density = mean(total)) %>%
+  ungroup()
   
-# one row for each abalone
-a <- abalone %>%
-  uncount(transect_total)
+quad <- quad1 %>%
+  select(date, site, surveyor, buddy_pair, method, survey_direction, survey_type, transect_length_m, belt_start_depth_m, belt_end_depth_m, density) %>%
+  unique()
+
+belt <- belt1 %>%
+  select(date, site, surveyor, buddy_pair, method, survey_direction, survey_type, transect_length_m, belt_start_depth_m, belt_end_depth_m, density) %>%
+  unique()
   
-most_aba <- a %>%
-  filter(site_code %in% a_rank$site_code) 
+trans <- rbind(quad, belt)
 
-idk <- abalone %>%
-  group_by(site_name, depth) %>% 
-  summarise(mean_den = mean(density))
+atv_hs <- trans %>%
+  filter(buddy_pair == "HS_ATV")
+
+# 
+ggplot(trans, aes(method, density)) +
+  geom_jitter(width = 0.1) +
+  stat_summary(fun = "mean", geom = "point", size = 3) +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2, linewidth = 0.5) +
+  facet_wrap(~site) +
+  theme_bw() 
+
+trans %>%
+      filter(site != "ohiat") %>%
+              filter(site != "goby_town")%>%
+              filter(site != "pyramid_rock")%>%
+              filter(site != "wizard_S") %>%
+ggplot(aes(surveyor, density)) +
+  geom_jitter(width = 0.1) +
+  stat_summary(fun = "mean", geom = "point", size = 3) +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.4, linewidth = 1.5) +
+  facet_wrap(~site)
+
+# stats -----
+mod2 <- glmmTMB(density ~ survey_direction*survey_type, 
+                family = tweedie,
+                data = trans)
+
+summary(mod2)
+plot(DHARMa::simulateResiduals(mod2))
 
 
-hist(a$depth)
 
-# do we want to look at the sites?
-# maybe not bc this is more of a hist of where we did transects...
-most_aba %>%
-  ggplot(aes(x=depth, color=site_name, fill=site_name)) +
-  geom_histogram(alpha=0.5, binwidth = 0.5, position = 'identity') +
-#  scale_fill_viridis(discrete=TRUE) +
-#  scale_color_viridis(discrete=TRUE) +
-  theme_classic() +
-  theme(
-    panel.spacing = unit(0.1, "lines"),
-    strip.text.x = element_text(size = 8)
-  ) +
-  xlab("") +
-  ylab("Assigned Probability (%)")
+
+# size data ------
+size <- read_csv("Data/aba_size_prelim.csv") %>%
+  filter(surveyor != "SL")
+
+ggplot(size, aes(length_cm, width_cm)) +
+  geom_point(aes(colour = surveyor)) +
+  geom_smooth(method = lm)
+
+size_mod <- glmmTMB(length_cm ~ width_cm, 
+                    data = size)
+summary(size_mod)
+
+plot(simulateResiduals(size_mod))
