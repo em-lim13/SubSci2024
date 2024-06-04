@@ -45,11 +45,11 @@ aba_coords <- abalone %>%
   group_by(site_code) %>%
   mutate(mean_density = mean(density),
          mean_total = mean(transect_total),
-         ) %>%
+  ) %>%
   ungroup() %>%
   select(site_code, site_name, survey_type, latitude, longitude, mean_total, mean_density) %>%
   unique() 
-  
+
 
 # write_csv(aba_coords, "Data/abalone_coordinates.csv")
 
@@ -94,7 +94,7 @@ quad1 <- data %>%
   group_by(site, surveyor, survey_direction, survey_type) %>%
   mutate(density = mean(total)) %>%
   ungroup()
-  
+
 quad <- quad1 %>%
   select(date, site, surveyor, buddy_pair, method, survey_direction, survey_type, transect_length_m, belt_start_depth_m, belt_end_depth_m, density) %>%
   unique()
@@ -102,11 +102,14 @@ quad <- quad1 %>%
 belt <- belt1 %>%
   select(date, site, surveyor, buddy_pair, method, survey_direction, survey_type, transect_length_m, belt_start_depth_m, belt_end_depth_m, density) %>%
   unique()
-  
+
 trans <- rbind(quad, belt)
 
-atv_hs <- trans %>%
-  filter(buddy_pair == "HS_ATV")
+buddy <- trans %>%
+  group_by(site, buddy_pair, survey_direction, survey_type) %>%
+  mutate(trans_den = mean(density)) %>%
+  select(-surveyor) %>%
+  unique()
 
 # 
 ggplot(trans, aes(method, density)) +
@@ -117,25 +120,25 @@ ggplot(trans, aes(method, density)) +
   theme_bw() 
 
 trans %>%
-      filter(site != "ohiat") %>%
-              filter(site != "goby_town")%>%
-              filter(site != "pyramid_rock")%>%
-              filter(site != "wizard_S") %>%
-ggplot(aes(surveyor, density)) +
+  filter(site != "ohiat") %>%
+  filter(site != "goby_town")%>%
+  filter(site != "pyramid_rock")%>%
+  filter(site != "wizard_S") %>%
+  ggplot(aes(surveyor, density)) +
   geom_jitter(width = 0.1) +
   stat_summary(fun = "mean", geom = "point", size = 3) +
   stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.4, linewidth = 1.5) +
   facet_wrap(~site)
 
 # stats -----
-mod2 <- glmmTMB(density ~ survey_direction*survey_type, 
-                family = tweedie,
-                data = trans)
+mod <- glmmTMB(density ~ survey_direction*survey_type + (1|buddy_pair) + (1|site), 
+               family = tweedie,
+               data = buddy)
 
-summary(mod2)
-plot(DHARMa::simulateResiduals(mod2))
+summary(mod)
+plot(DHARMa::simulateResiduals(mod))
 
-
+visreg(mod)
 
 
 # size data ------
